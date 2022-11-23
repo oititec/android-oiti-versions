@@ -10,7 +10,7 @@ No arquivo `settings.gradle` do projeto, adicione o repositório:
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        maven { url "https://raw.githubusercontent.com/oititec/oiti-android-versions/master" }
+        maven { url "https://raw.githubusercontent.com/oititec/android-oiti-versions/master" }
     }
 }
 ```
