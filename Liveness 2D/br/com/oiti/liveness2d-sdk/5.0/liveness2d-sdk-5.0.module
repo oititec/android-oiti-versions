@@ -1,8 +1,8 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "br.com.oiti.certiface",
-    "module": "liveness2d-release",
+    "group": "br.com.oiti",
+    "module": "liveness2d-sdk",
     "version": "5.0",
     "attributes": {
       "org.gradle.status": "release"
@@ -24,8 +24,8 @@
       },
       "files": [
         {
-          "name": "liveness2d-release-5.0.aar",
-          "url": "liveness2d-release-5.0.aar",
+          "name": "liveness2d-sdk-5.0.aar",
+          "url": "liveness2d-sdk-5.0.aar",
           "size": 2426942,
           "sha512": "aaa5d9b2b66f8e9fdeec30adf2615c50738bc5a9724461583a6a5de2d5c4a733876c76540257ad5f109bd1568848882d6781a7194deb7aa4feb27c16c42261c9",
           "sha256": "c602720339540e8ba02c179fadf8d1cca9b0ff203eb76154a1e230bc580d29f0",
@@ -109,8 +109,8 @@
       ],
       "files": [
         {
-          "name": "liveness2d-release-5.0.aar",
-          "url": "liveness2d-release-5.0.aar",
+          "name": "liveness2d-sdk-5.0.aar",
+          "url": "liveness2d-sdk-5.0.aar",
           "size": 2426942,
           "sha512": "aaa5d9b2b66f8e9fdeec30adf2615c50738bc5a9724461583a6a5de2d5c4a733876c76540257ad5f109bd1568848882d6781a7194deb7aa4feb27c16c42261c9",
           "sha256": "c602720339540e8ba02c179fadf8d1cca9b0ff203eb76154a1e230bc580d29f0",
