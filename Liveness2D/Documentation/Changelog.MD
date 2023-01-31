@@ -1,5 +1,10 @@
 # Changelog
 
+#### 5.1.0
+- Melhorias de UX.
+- Ajustes no Fluxo da Documentoscopia.
+- Remoção de fontes não mais utilizadas.
+
 #### 2.3.1
 - Melhoria na captura das fotos.
 
