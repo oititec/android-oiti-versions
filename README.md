@@ -24,4 +24,4 @@ dependencies {
 ```
 ###  Changelog
 
-- [Detalhes de versões](Liveness2D/Documentation/Changelog.md)
+- [Detalhes de versões](Liveness2D/Documentation/Changelog.MD)
