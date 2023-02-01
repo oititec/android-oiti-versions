@@ -1,5 +1,8 @@
 # Changelog
 
+#### 5.2.0
+- Correção de bug ao iniciar a câmera no liveness 2D
+
 #### 5.1.0
 - Melhorias de UX.
 - Ajustes no Fluxo da Documentoscopia.
