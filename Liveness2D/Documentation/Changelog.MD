@@ -1,6 +1,11 @@
 # Changelog
 
 #### 5.2.0
+- Melhorias de UX
+- Permitir customização completa da documentoscopia
+- Ajustes de fluxo
+
+#### 5.2.0
 - Correção de bug ao iniciar a câmera no liveness 2D
 
 #### 5.1.0
