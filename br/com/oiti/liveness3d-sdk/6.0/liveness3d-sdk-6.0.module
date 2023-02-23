@@ -1,0 +1,303 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.oiti",
+    "module": "liveness3d-sdk",
+    "version": "6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.20"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "liveness3d-sdk-6.0.aar",
+          "url": "liveness3d-sdk-6.0.aar",
+          "size": 2200615,
+          "sha512": "2c9975eec74f7035b9bdc9d5c8c22f4084c9088f6cfd161c1d2955728079886251c31779d39b0e5a326b91f275633132c361d15227d322cc1fffe1f05dc87310",
+          "sha256": "c8fcb58c3545d4624a6cef94f31a38a31644d2b49003651b20c191b224b24d3c",
+          "sha1": "c4dd810c2027dbf1db6a28029a16260d43b2041a",
+          "md5": "9ac306bb6e332ba9123fefb671ffb70a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.20"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.6.20"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        },
+        {
+          "group": "com.facetec",
+          "module": "facetec-sdk",
+          "version": {
+            "requires": "9.6.10"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "facetec-sdk",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.6.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.4.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.3.6"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.9.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "4.2.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk16",
+          "version": {
+            "requires": "1.46"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        },
+        {
+          "group": "br.com.oiti",
+          "module": "network",
+          "version": {
+            "requires": "1.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "liveness3d-sdk-6.0.aar",
+          "url": "liveness3d-sdk-6.0.aar",
+          "size": 2200615,
+          "sha512": "2c9975eec74f7035b9bdc9d5c8c22f4084c9088f6cfd161c1d2955728079886251c31779d39b0e5a326b91f275633132c361d15227d322cc1fffe1f05dc87310",
+          "sha256": "c8fcb58c3545d4624a6cef94f31a38a31644d2b49003651b20c191b224b24d3c",
+          "sha1": "c4dd810c2027dbf1db6a28029a16260d43b2041a",
+          "md5": "9ac306bb6e332ba9123fefb671ffb70a"
+        }
+      ]
+    }
+  ]
+}
