@@ -98,23 +98,20 @@
         },
         {
           "group": "com.facetec",
-          "module": "facetec-sdk",
+          "module": "sdk",
           "version": {
             "requires": "9.6.10"
           },
           "excludes": [
             {
               "group": "*",
-              "module": "*"
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
             }
-          ],
-          "thirdPartyCompatibility": {
-            "artifactSelector": {
-              "name": "facetec-sdk",
-              "type": "aar",
-              "extension": "aar"
-            }
-          }
+          ]
         },
         {
           "group": "androidx.core",
