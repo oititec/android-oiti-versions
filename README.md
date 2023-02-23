@@ -44,10 +44,13 @@ dependencyResolutionManagement {
 No arquivo  `build.gradle` do módulo/app, adicione a dependência:
 
 ```gradle
-dependencies {
+dependencies { 
+    implementation 'com.facetec.sdk:facetec-sdk:9.6.10'
     implementation 'br.com.oiti:liveness3d-sdk:6.0'
 }
 ```
+
+
 ###  Changelog
 
 - [Detalhes de versões](Liveness3D/Documentation/Changelog.MD)
