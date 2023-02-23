@@ -22,6 +22,9 @@ dependencies {
     implementation 'br.com.oiti:liveness2d-sdk:5.3'
 }
 ```
+###  Changelog
+
+- [Detalhes de versões](Liveness2D/Documentation/Changelog.MD)
 
 ### Liveness 3D
 
@@ -44,7 +47,7 @@ No arquivo  `build.gradle` do módulo/app, adicione a dependência:
 dependencies {
     implementation 'br.com.oiti:liveness3d-sdk:6.0'
 }
-
+```
 ###  Changelog
 
 - [Detalhes de versões](Liveness3D/Documentation/Changelog.MD)
