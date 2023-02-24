@@ -35,11 +35,11 @@
         {
           "name": "network-1.0.aar",
           "url": "network-1.0.aar",
-          "size": 60885,
-          "sha512": "4d33c804bb6777d022a82b8010ea2f1d310cd8465c0d8137453e337efa4b42dfc18c440fa1bbef1cb4598f60a35502c655081b95eb181222a8b123dd13da1c6e",
-          "sha256": "2027c6e9c89e08f68c8d48e0a3062b1f50757a59c0fca05ea7f318a392a1bcf6",
-          "sha1": "5db985fb008a445a7125f88de13086d7af3a98f2",
-          "md5": "e445560084fc8f58f41fa1016194280e"
+          "size": 60121,
+          "sha512": "2cf5e1c536407f41058a3bc97cc21814c908b639aae82ec4e903ca5cde9cd984e1acc58afe5e1b600c762647ca416db83851f3ec250b74ea2309b5d03c28f7ea",
+          "sha256": "e0eff9fb84ee39f8882638e38df2fcd94c935a25167d879c815520b2c2b6ca6e",
+          "sha1": "9aa522e310ed88085a850d31e3deeeb32bd83608",
+          "md5": "071b1a3163d93d1ad7eb8df3947ebf95"
         }
       ]
     },
@@ -70,14 +70,14 @@
           "group": "androidx.appcompat",
           "module": "appcompat",
           "version": {
-            "requires": "1.6.1"
+            "requires": "1.5.1"
           }
         },
         {
           "group": "com.google.android.material",
           "module": "material",
           "version": {
-            "requires": "1.7.0"
+            "requires": "1.6.1"
           }
         },
         {
@@ -106,11 +106,11 @@
         {
           "name": "network-1.0.aar",
           "url": "network-1.0.aar",
-          "size": 60885,
-          "sha512": "4d33c804bb6777d022a82b8010ea2f1d310cd8465c0d8137453e337efa4b42dfc18c440fa1bbef1cb4598f60a35502c655081b95eb181222a8b123dd13da1c6e",
-          "sha256": "2027c6e9c89e08f68c8d48e0a3062b1f50757a59c0fca05ea7f318a392a1bcf6",
-          "sha1": "5db985fb008a445a7125f88de13086d7af3a98f2",
-          "md5": "e445560084fc8f58f41fa1016194280e"
+          "size": 60121,
+          "sha512": "2cf5e1c536407f41058a3bc97cc21814c908b639aae82ec4e903ca5cde9cd984e1acc58afe5e1b600c762647ca416db83851f3ec250b74ea2309b5d03c28f7ea",
+          "sha256": "e0eff9fb84ee39f8882638e38df2fcd94c935a25167d879c815520b2c2b6ca6e",
+          "sha1": "9aa522e310ed88085a850d31e3deeeb32bd83608",
+          "md5": "071b1a3163d93d1ad7eb8df3947ebf95"
         }
       ]
     }
