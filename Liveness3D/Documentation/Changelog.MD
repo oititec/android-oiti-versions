@@ -1,5 +1,10 @@
 # Changelog
 
+### 6.1
+
+- Permitir customização da propriedade guidanceCustomizationReadyScreenHeaderFont
+
+
 ### 6.0
 
 ##### Remoção das seguintes propriedades abaixo:
