@@ -1,5 +1,10 @@
 # Changelog
 
+### 6.2
+
+- Atualizações de segurança / Facetec 9.6.15
+
+
 ### 6.1
 
 - Permitir customização da propriedade guidanceCustomizationReadyScreenHeaderFont

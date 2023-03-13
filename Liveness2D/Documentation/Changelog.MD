@@ -1,5 +1,16 @@
 # Changelog
 
+#### 5.4.0
+- Melhorias de UX
+- Ajuste na captura do documento
+- Melhorias na qualidade de envio da imagem
+
+
+#### 5.3.0
+- Melhorias de UX
+- Ajustes de fluxo
+
+
 #### 5.2.0
 - Melhorias de UX
 - Permitir customização completa da documentoscopia
