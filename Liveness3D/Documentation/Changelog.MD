@@ -1,5 +1,10 @@
 # Changelog
 
+### 6.4
+
+- Melhorias de UX
+- Correções de compatiblidade na importação da Classe Liveness3DTextKey
+
 ### 6.3
 
 - Permitir customização das strings via objetos
