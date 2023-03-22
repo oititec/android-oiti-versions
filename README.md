@@ -15,14 +15,15 @@ dependencyResolutionManagement {
 }
 ```
 
-No arquivo  `build.gradle` do módulo/app, adicione a dependência:
+No arquivo `build.gradle` do módulo/app, adicione a dependência:
 
 ```gradle
 dependencies {
     implementation 'br.com.oiti:liveness2d-sdk:5.4'
 }
 ```
-###  Changelog
+
+### Changelog
 
 - [Detalhes de versões](Liveness2D/Documentation/Changelog.MD)
 
@@ -41,15 +42,14 @@ dependencyResolutionManagement {
 }
 ```
 
-No arquivo  `build.gradle` do módulo/app, adicione a dependência:
+No arquivo `build.gradle` do módulo/app, adicione a dependência:
 
 ```gradle
-dependencies { 
-    implementation 'br.com.oiti:liveness3d-sdk:6.4'
+dependencies {
+    implementation 'br.com.oiti:liveness3d-sdk:6.5'
 }
 ```
 
-
-###  Changelog
+### Changelog
 
 - [Detalhes de versões](Liveness3D/Documentation/Changelog.MD)
