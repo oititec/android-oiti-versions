@@ -1,5 +1,9 @@
 # Changelog
 
+### 6.5
+
+- Correções de inicialização da Classe Liveness3DTextKey na Activity
+
 ### 6.4
 
 - Melhorias de UX
