@@ -3,8 +3,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.facetec</groupId>
-  <artifactId>facetec-sdk</artifactId>
-  <version>9.6.15</version>
+  <artifactId>sdk</artifactId>
+  <version>9.6.23</version>
   <packaging>aar</packaging>
   <description>POM was created from install:install-file</description>
 </project>
