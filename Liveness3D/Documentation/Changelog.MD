@@ -1,5 +1,13 @@
 # Changelog
 
+### 6.6
+
+- Atualizações de segurança / Facetec 9.6.23
+
+### 6.6
+
+- Correções de inicialização da Classe Liveness3DTextKey na Activity
+
 ### 6.5
 
 - Correções de inicialização da Classe Liveness3DTextKey na Activity
