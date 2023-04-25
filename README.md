@@ -31,6 +31,12 @@ dependencies {
 
 #### via Gradle
 
+####  Requisitos mínimos
+
+- `Gradle 6.8+`
+- `Android minSDK 21+`
+- `androidx.core:core-ktx:1.6.0+`
+
 No arquivo `settings.gradle` do projeto, adicione o repositório:
 
 ```gradle
