@@ -1,4 +1,12 @@
-## Instalação
+## Instalação e Atualização
+
+###  Requisitos mínimos (Liveness 2D e 3D)
+
+ - ##### `Gradle 6.8+`
+ - ##### `Android minSDK 21+`
+ - ##### `Android targetSDK 33+`
+ - ##### `androidx.core:core-ktx:1.6.0+`
+ - ##### `androidx.appcompat:appcompat:1.6.1+`
 
 ### Liveness 2D
 
@@ -30,12 +38,6 @@ dependencies {
 ### Liveness 3D
 
 #### via Gradle
-
-####  Requisitos mínimos
-
-- `Gradle 6.8+`
-- `Android minSDK 21+`
-- `androidx.core:core-ktx:1.6.0+`
 
 No arquivo `settings.gradle` do projeto, adicione o repositório:
 
