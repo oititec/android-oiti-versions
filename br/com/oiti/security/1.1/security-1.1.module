@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.oiti",
+    "module": "security",
+    "version": "1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "security-1.1.aar",
+          "url": "security-1.1.aar",
+          "size": 72022,
+          "sha512": "6fca22e2876b6e0a967612f29f255366cbcae9948f3ef333b6ea4c5d687db8dfbc97f5500a3d69062d925f78d8f20b63533b0f856e974879b50cf0a9d8c633b9",
+          "sha256": "cd1faf00328fa8d226c672121000f172f31336d1dff0e2a8e3ba3eb7b7d223f3",
+          "sha1": "2d7be78090e2bf2f40ac99f072a963c2d17c84f2",
+          "md5": "ef489e1f2ec7652e95bb943ceccff211"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-location",
+          "version": {
+            "requires": "21.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-play-services",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "monitor",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "rules",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-analytics-ktx",
+          "version": {
+            "requires": "17.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "security-1.1.aar",
+          "url": "security-1.1.aar",
+          "size": 72022,
+          "sha512": "6fca22e2876b6e0a967612f29f255366cbcae9948f3ef333b6ea4c5d687db8dfbc97f5500a3d69062d925f78d8f20b63533b0f856e974879b50cf0a9d8c633b9",
+          "sha256": "cd1faf00328fa8d226c672121000f172f31336d1dff0e2a8e3ba3eb7b7d223f3",
+          "sha1": "2d7be78090e2bf2f40ac99f072a963c2d17c84f2",
+          "md5": "ef489e1f2ec7652e95bb943ceccff211"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.oiti",
+    "module": "security",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "security-1.0.aar",
+          "url": "security-1.0.aar",
+          "size": 67728,
+          "sha512": "882403031d3399327c2251fa4eb3b7e1a5836028ca341f5cbeb7783b299787f504002070a478088fd6ef42ff281049d074fe323fa13a24fc3b21adb6fa70d1d8",
+          "sha256": "8bd5362c82a345fd1f89c822a396c4ebfa89d71917824c56144a3c2df95950f2",
+          "sha1": "c45787695e6cf24d9578eca875d3ab75df15a8f3",
+          "md5": "c930f62868640b43686516ba82d7b93f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.20"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-location",
+          "version": {
+            "requires": "21.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-play-services",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "security-1.0.aar",
+          "url": "security-1.0.aar",
+          "size": 67728,
+          "sha512": "882403031d3399327c2251fa4eb3b7e1a5836028ca341f5cbeb7783b299787f504002070a478088fd6ef42ff281049d074fe323fa13a24fc3b21adb6fa70d1d8",
+          "sha256": "8bd5362c82a345fd1f89c822a396c4ebfa89d71917824c56144a3c2df95950f2",
+          "sha1": "c45787695e6cf24d9578eca875d3ab75df15a8f3",
+          "md5": "c930f62868640b43686516ba82d7b93f"
+        }
+      ]
+    }
+  ]
+}
