@@ -1,5 +1,9 @@
 # Changelog
 
+### 6.8
+
+- Atualizações de segurança / Facetec 9.6.30
+
 ### 6.7
 
 - Atualizações de segurança / Facetec 9.6.25 / Melhorias de UX
