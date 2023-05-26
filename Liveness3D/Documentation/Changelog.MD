@@ -1,8 +1,12 @@
 # Changelog
 
 ### 6.8
-
-- Atualizações de segurança / Facetec 9.6.30
+Data: 26/05/2023
+- Atualização para Facetec v9.6.30
+- Adicionadas novas verificações de injeção de vídeo no lado do dispositivo e no lado do servidor para mitigar ameaças de IA generativas.
+- Melhorias de desempenho em dispositivos de nível baixo e intermediário, levando a melhorias na taxa de sucesso.
+- Correções para melhorar a compatibilidade de vários dispositivos Samsung e Redmi.
+- Várias correções de melhoria de estabilidade.
 
 ### 6.7
 
