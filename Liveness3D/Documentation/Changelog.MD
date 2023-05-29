@@ -1,6 +1,6 @@
 # Changelog
 
-### [Versão 6.8](https://github.com/oititec/liveness-android-sdk/releases/tag/6.8)
+### [Versão 6.8](https://github.com/oititec/android-oiti-versions/releases/tag/6.8)
 Data: 26/05/2023
 - Atualização para Facetec v9.6.30
   - Adicionadas novas verificações de injeção de vídeo no lado do dispositivo e no lado do servidor para mitigar ameaças de IA generativas.
