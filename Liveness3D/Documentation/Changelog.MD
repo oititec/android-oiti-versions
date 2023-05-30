@@ -1,5 +1,11 @@
 # Changelog
 
+### [Versão 6.9](https://github.com/oititec/android-oiti-versions/releases/tag/6.9)
+Data: 26/05/2023
+- Atualização do SDK para 6.9 trazendo melhorias de arquitetura interna
+  - Atualizado modulo de uso interno para nova arquitetura
+  - Várias correções de melhoria de estabilidade.
+
 ### [Versão 6.8](https://github.com/oititec/android-oiti-versions/releases/tag/6.8)
 Data: 26/05/2023
 - Atualização para Facetec v9.6.30
