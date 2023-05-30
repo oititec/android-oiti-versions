@@ -3,6 +3,7 @@
 ### [Versão 6.9](https://github.com/oititec/android-oiti-versions/releases/tag/6.9)
 Data: 30/05/2023
 - Atualização do SDK para 6.9 trazendo melhorias de arquitetura interna
+  - adicionado a possibilidade de customizar o campo resultScreenOverrideSuccessMessage que altera a mensagem de sucesso.
   - Atualizado modulo de uso interno para nova arquitetura
   - Várias correções de melhoria de estabilidade.
 
