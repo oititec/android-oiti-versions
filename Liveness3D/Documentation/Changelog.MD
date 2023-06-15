@@ -1,6 +1,11 @@
 # Changelog
 
 ### [Versão 6.9](https://github.com/oititec/android-oiti-versions/releases/tag/6.9)
+Data: 15/06/2023
+- Ponto de correção encontrado com Koin:
+ - Encontrado ponto onde o dentro do application, android:name conflitava com o .App do manifest do SDK e não permitia o build do app.
+
+### [Versão 6.9](https://github.com/oititec/android-oiti-versions/releases/tag/6.9)
 Data: 30/05/2023
 - Atualização do SDK para 6.9 trazendo melhorias de arquitetura interna
   - adicionado a possibilidade de customizar o campo resultScreenOverrideSuccessMessage que altera a mensagem de sucesso.
