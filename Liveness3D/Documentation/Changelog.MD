@@ -1,6 +1,6 @@
 # Changelog
 
-### [Versão 6.9](https://github.com/oititec/android-oiti-versions/releases/tag/6.9)
+### [Versão 6.9.1](https://github.com/oititec/android-oiti-versions/releases/tag/6.9.1)
 Data: 15/06/2023
 - Ponto de correção encontrado com Koin:
  - Encontrado ponto onde o dentro do application, android:name conflitava com o .App do manifest do SDK e não permitia o build do app.
