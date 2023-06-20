@@ -1,5 +1,10 @@
 # Changelog
 
+### [Versão 6.9.2](https://github.com/oititec/android-oiti-versions/releases/tag/6.9.2)
+Data: 20/06/2023
+- Ponto de correção encontrado com Koin:
+ - Ajuste na configuração do Koin para garantir inicialização e independência em apps que já possuem Koin ou não utilizam o framework.
+
 ### [Versão 6.9.1](https://github.com/oititec/android-oiti-versions/releases/tag/6.9.1)
 Data: 15/06/2023
 - Ponto de correção encontrado com Koin:
