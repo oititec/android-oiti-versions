@@ -1,5 +1,10 @@
 # Changelog
 
+### [Versão 7.0.0](https://github.com/oititec/android-oiti-versions/releases/tag/7.0.0)
+Data: 21/06/2023
+- Implementado custom loadings:
+- Ponto de melhoria para tecnologias hibridas.
+
 ### [Versão 6.9.2](https://github.com/oititec/android-oiti-versions/releases/tag/6.9.2)
 Data: 20/06/2023
 - Ponto de correção encontrado com Koin:
