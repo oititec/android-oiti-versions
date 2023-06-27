@@ -1,5 +1,11 @@
 # Changelog
 
+#### 5.6.0
+
+Data: 21/06/2023
+- Implementado custom loadings:
+- Ponto de melhoria para tecnologias hibridas.
+
 #### 5.5.0
 
 - Compatibilidade com tecnologias híbridas
