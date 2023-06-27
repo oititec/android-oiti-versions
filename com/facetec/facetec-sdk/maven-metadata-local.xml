@@ -3,13 +3,14 @@
   <groupId>com.facetec</groupId>
   <artifactId>facetec-sdk</artifactId>
   <versioning>
-    <release>9.6.23</release>
+    <release>9.6.36</release>
     <versions>
       <version>9.6.10</version>
       <version>9.6.15</version>
       <version>9.6.23</version>
       <version>9.6.30</version>
+      <version>9.6.36</version>
     </versions>
-    <lastUpdated>20230403193247</lastUpdated>
+    <lastUpdated>20230627102547</lastUpdated>
   </versioning>
 </metadata>
