@@ -1,5 +1,12 @@
 # Changelog
 
+### [Versão 7.1.0](https://github.com/oititec/android-oiti-versions/releases/tag/7.1.0)
+Data: 07/07/2023
+- Atualização da FaceTec - versão 9.6.36
+  - A propriedade feedbackEyesStraightAhead foi descontinuada.
+  - Adicionada nova checagem de injeção de video no dispositivo e servidor para mitigar a ameaça das IAs Generativas.
+  - Melhorias de estabilide.
+
 ### [Versão 7.0.0](https://github.com/oititec/android-oiti-versions/releases/tag/7.0.0)
 Data: 21/06/2023
 - Implementado custom loadings:
