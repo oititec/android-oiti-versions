@@ -1,5 +1,10 @@
 # Changelog
 
+#### 5.6.1
+
+Data: 18/07/2023
+- Ajuste para que a ofuscação não tenha impacto negativo no fluxo.
+
 #### 5.6.0
 
 Data: 21/06/2023
