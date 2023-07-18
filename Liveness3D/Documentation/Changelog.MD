@@ -1,5 +1,10 @@
 # Changelog
 
+### [Versão 7.1.1](https://github.com/oititec/android-oiti-versions/releases/tag/7.1.1)
+Data: 17/07/2023
+- Ajuste na propriedade RESULT_SUCCESS_MESSAGE á qual não aplicava customização.
+- Revisão na estrutura da customização dos textos.
+
 ### [Versão 7.1.0](https://github.com/oititec/android-oiti-versions/releases/tag/7.1.0)
 Data: 07/07/2023
 - Atualização da FaceTec - versão 9.6.36
