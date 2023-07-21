@@ -1,5 +1,10 @@
 # Changelog
 
+#### 5.6.2
+
+Data: 21/07/2023
+- Corrigido crash que ocorria com o custom loading nas plataformas hibridas.
+
 #### 5.6.1
 
 Data: 18/07/2023
