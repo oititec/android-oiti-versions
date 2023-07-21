@@ -1,5 +1,9 @@
 # Changelog
 
+### [Versão 7.1.2](https://github.com/oititec/android-oiti-versions/releases/tag/7.1.2)
+Data: 21/07/2023
+- Corrigido crash que ocorria com o custom loading nas plataformas hibridas.
+
 ### [Versão 7.1.1](https://github.com/oititec/android-oiti-versions/releases/tag/7.1.1)
 Data: 17/07/2023
 - Ajuste na propriedade RESULT_SUCCESS_MESSAGE á qual não aplicava customização.
