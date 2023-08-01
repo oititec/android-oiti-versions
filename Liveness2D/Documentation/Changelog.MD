@@ -1,5 +1,10 @@
 # Changelog
 
+#### 5.7.0
+
+Data: 01/08/2023
+- Implementado caminho para integrar com certiface api, adicionado 2 novos parametros para documentoscopia sendo eles o PARAM_CERTIFACE_ENV e PARAM_TICKET.
+
 #### 5.6.2
 
 Data: 21/07/2023
