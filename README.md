@@ -54,10 +54,14 @@ No arquivo `build.gradle` do módulo/app, adicione a dependência:
 
 ```gradle
 dependencies {
-    implementation 'br.com.oiti:liveness3d-sdk:7.1.2'
+    implementation 'br.com.oiti:liveness3d-sdk:8.0.0'
 }
 ```
 
 ### Changelog
 
 - [Detalhes de versões](Liveness3D/Documentation/Changelog.MD)
+
+###  Guias de migração
+
+- [8.0.0](https://github.com/oititec/liveness-android-sdk/blob/task/update-changelog/Documentation/Migration-Guide-8.0.0.md) - BREAKING CHANGE
