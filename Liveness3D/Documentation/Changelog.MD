@@ -1,5 +1,22 @@
 # Changelog
 
+### [Versão 8.0.0](https://github.com/oititec/android-oiti-versions/releases/tag/8.0.0)
+Data: 11/08/2023
+- **Breaking changes**
+  - Novo PARAM_FONTS adicionado para APIs abaixo do (API level 26)
+  - Novo Param_FONTS_NEW_API adicionado
+  - A estrutura do `Liveness3DTheme` teve algumas propriedades removidas, segue a lista:
+    - `guidanceCustomizationHeaderFont`
+    - `guidanceCustomizationSubtextFont`
+    - `guidanceCustomizationButtonFont`
+    - `guidanceCustomizationReadyScreenHeaderFont`
+    - `guidanceCustomizationReadyScreenSubtextFont`
+    - `guidanceCustomizationRetryScreenHeaderFont`
+    - `guidanceCustomizationRetryScreenSubtextFont`
+    - `resultScreenCustomizationMessageFont`
+    - `feedbackCustomizationTextFont`
+  - A customização das fontes agora é feita somente pelo dicionário de chave e referencia ou caminho da fonte, assim como é aplicado com os textos. `Liveness3DFontsKey`.
+
 ### [Versão 7.1.2](https://github.com/oititec/android-oiti-versions/releases/tag/7.1.2)
 Data: 21/07/2023
 - Corrigido crash que ocorria com o custom loading nas plataformas hibridas.
