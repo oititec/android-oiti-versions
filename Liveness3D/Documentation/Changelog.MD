@@ -1,5 +1,13 @@
 # Changelog
 
+### [Versão 8.0.0](https://github.com/oititec/android-oiti-versions/releases/tag/8.0.1)
+Data: 24/08/2023
+- Atualização da FaceTec - versão 9.6.42
+  - Adicionadas novas verificações de injeção de vídeo no lado do dispositivo e no servidor para mitigar ameaças de IA generativa.
+  - Melhorias de desempenho em dispositivos de nível inferior e intermediário, levando a melhorias na taxa de sucesso.
+  - Correções para melhorar a compatibilidade de vários dispositivos Samsung, Redmi e Xiaomi.
+  - Numerosas correções de melhoria de estabilidade.
+
 ### [Versão 8.0.0](https://github.com/oititec/android-oiti-versions/releases/tag/8.0.0)
 Data: 11/08/2023
 - **Breaking changes**
