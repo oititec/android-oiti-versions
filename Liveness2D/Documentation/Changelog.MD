@@ -1,4 +1,18 @@
 # Changelog
+#### 5.8.0
+
+Data: 29/08/2023
+- Novo parâmetro adicionado `PARAM_ENVIRONMENT` que recebe um objeto do tipo `Environment.HML` por default.
+- Com a adição do `PARAM_ENVIRONMENT` o `PARAM_ENDPOINT` foi depreciado e movido para o novo parâmetro de environment.
+- Nova forma de customização das cores adicionada para plataformas hibridas, caso o `PARAM_HYBRID` seja true.
+```kotlin
+val DocTheme = DocCopyTheme.Builder()
+        .setBackgroundDismissColorHybrid("#73997d")
+        .setBackgroundOkColorHybrid("#3b3bd4")
+        .setTryAgainColorHybrid("#383531")
+        .setBackgroundCameraColorHybrid("#70856e")
+        .build()
+```
 
 #### 5.7.0
 
