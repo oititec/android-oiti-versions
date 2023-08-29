@@ -1,5 +1,16 @@
 # Changelog
 
+### [Versão 8.1.0](https://github.com/oititec/android-oiti-versions/releases/tag/8.1.0)
+Data: 29/08/2023
+- Nova forma para customizar as cores adicionada, permitindo a passagem de um hexadecimal String para o builder do Liveness3DTheme.
+```kotlin
+val liveness3DTheme = Liveness3DTheme.Builder()
+                // Colors for hybrid
+                .guidanceCustomizationBackgroundColors("#73997d")
+                .feedbackCustomizationTextColor("#15d100")
+                .build()
+```
+
 ### [Versão 8.0.1](https://github.com/oititec/android-oiti-versions/releases/tag/8.0.1)
 Data: 24/08/2023
 - Atualização da FaceTec - versão 9.6.42
