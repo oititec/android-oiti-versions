@@ -1,12 +1,16 @@
+<p align="center">
+ <img src="Liveness3D/Documentation/Images/OitiHeader.png"/>
+</p>
+
 ## Instalação e Atualização
 
-###  Requisitos mínimos (Liveness 2D e 3D)
+### Requisitos mínimos (Liveness 2D e 3D)
 
- - ##### `Gradle 6.8+`
- - ##### `Android minSDK 21+`
- - ##### `Android targetSDK 33+`
- - ##### `androidx.core:core-ktx:1.6.0+`
- - ##### `androidx.appcompat:appcompat:1.6.1+`
+- ##### `Gradle 6.8+`
+- ##### `Android minSDK 21+`
+- ##### `Android targetSDK 33+`
+- ##### `androidx.core:core-ktx:1.6.0+`
+- ##### `androidx.appcompat:appcompat:1.6.1+`
 
 ### Liveness 2D
 
@@ -62,6 +66,6 @@ dependencies {
 
 - [Detalhes de versões](Liveness3D/Documentation/Changelog.MD)
 
-###  Guias de migração
+### Guias de migração
 
 - [8.0.0](https://github.com/oititec/liveness-android-sdk/blob/main/Documentation/Migration-Guide-8.0.0.md) - BREAKING CHANGE
