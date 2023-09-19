@@ -111,13 +111,19 @@ Data: 26/05/2023
 
 ### 6.7
 
+Data: 25/04/2023
+
 - Atualizações de segurança / Facetec 9.6.25 / Melhorias de UX
 
 ### 6.6
 
+Data: 04/04/2023
+
 - Atualizações de segurança / Facetec 9.6.23
 
 ### 6.6
+
+Data: 04/04/2023
 
 - Correções de inicialização da Classe Liveness3DTextKey na Activity
 
@@ -136,6 +142,8 @@ Data: 26/05/2023
 
 ### 6.2
 
+Data: 13/03/2023
+
 - Atualizações de segurança / Facetec 9.6.15
 
 ### 6.1
@@ -143,6 +151,8 @@ Data: 26/05/2023
 - Permitir customização da propriedade guidanceCustomizationReadyScreenHeaderFont
 
 ### 6.0
+
+Data: 23/02/2023
 
 ##### Remoção das seguintes propriedades abaixo:
 
