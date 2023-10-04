@@ -10,7 +10,7 @@ Data: 04/10/2023
 
 - Atualização do `PARAM_FONTS`
 - Remoção do `PARAM_FONTS_NEW_API`
-- Breaking changes e guia de migração para a [9.0.0](https://github.com/oititec/liveness-android-sdk/edit/main/Documentation/Migration-Guide-9.0.0.md) 
+- Breaking changes e guia de migração para a [9.0.0](https://github.com/oititec/liveness-android-sdk/blob/main/Documentation/Migration-Guide-9.0.0.md) 
 
 ### [Versão 8.1.1](https://github.com/oititec/android-oiti-versions/releases/tag/8.1.1)
 
