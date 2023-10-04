@@ -69,3 +69,4 @@ dependencies {
 ### Guias de migração
 
 - [8.0.0](https://github.com/oititec/liveness-android-sdk/blob/main/Documentation/Migration-Guide-8.0.0.md) - BREAKING CHANGE
+- [9.0.0](https://github.com/oititec/liveness-android-sdk/blob/main/Documentation/Migration-Guide-9.0.0.md) - BREAKING CHANGE
