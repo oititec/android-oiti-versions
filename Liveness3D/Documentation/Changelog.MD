@@ -2,9 +2,17 @@
  <img src="Images/OitiHeader.png"/>
 </p>
 
-### [Versão 8.1.1](https://github.com/oititec/android-oiti-versions/releases/tag/8.1.1)
-
 # Changelog
+
+### [Versão 9.0.0](https://github.com/oititec/android-oiti-versions/releases/tag/9.0.0)
+
+Data: 04/10/2023
+
+- Atualização do `PARAM_FONTS`
+- Remoção do `PARAM_FONTS_NEW_API`
+- Breaking changes e guia de migração para a [9.0.0](https://github.com/oititec/liveness-android-sdk/edit/main/Documentation/Migration-Guide-9.0.0.md) 
+
+### [Versão 8.1.1](https://github.com/oititec/android-oiti-versions/releases/tag/8.1.1)
 
 Data: 21/09/2023
 
