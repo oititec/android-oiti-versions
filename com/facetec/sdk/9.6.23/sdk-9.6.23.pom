@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.facetec</groupId>
   <artifactId>sdk</artifactId>
-  <version>9.6.23</version>
+  <version>9.6.54</version>
   <packaging>aar</packaging>
   <description>POM was created from install:install-file</description>
 </project>
