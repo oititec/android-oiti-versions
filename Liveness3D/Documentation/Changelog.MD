@@ -4,6 +4,20 @@
 
 # Changelog
 
+### [Versão 9.0.1](https://github.com/oititec/android-oiti-versions/releases/tag/9.0.1)
+
+Data: 01/11/2023
+
+- Atualização da FaceTec - versão 9.6.54
+  - Feedback genérico atualizado.
+  - Numerosas correções de polimento de UI/UX.
+  - Registro aprimorado em casos de erro.
+  - Pequenas melhorias nos modos de pouca luz e escurecimento automático.
+  - Numerosas correções de compatibilidade, estabilidade e desempenho.
+  - Adicionadas novas verificações de injeção de vídeo no lado do dispositivo e no servidor para mitigar ameaças de IA generativa.
+  - Melhorias de desempenho em dispositivos de nível inferior e intermediário, levando a melhorias na taxa de sucesso.
+
+
 ### [Versão 9.0.0](https://github.com/oititec/android-oiti-versions/releases/tag/9.0.0)
 
 Data: 04/10/2023
