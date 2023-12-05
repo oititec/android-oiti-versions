@@ -6,7 +6,7 @@
 
 ### [Versão 9.1.0](https://github.com/oititec/android-oiti-versions/releases/tag/9.1.0)
 
-Data: 05/11/2023
+Data: 05/12/2023
 
 - Atualização da FaceTec - versão 9.6.63
 - Novo laboratório testado e segurança confirmada, injeção de vídeo de nível 4 e 5 e segurança de desvio de câmera.
