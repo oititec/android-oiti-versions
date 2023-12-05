@@ -4,6 +4,13 @@
 
 # Changelog
 
+### [Versão 9.1.0](https://github.com/oititec/android-oiti-versions/releases/tag/9.1.0)
+
+Data: 05/11/2023
+
+- Atualização da FaceTec - versão 9.6.63
+- Novo laboratório testado e segurança confirmada, injeção de vídeo de nível 4 e 5 e segurança de desvio de câmera.
+
 ### [Versão 9.0.1](https://github.com/oititec/android-oiti-versions/releases/tag/9.0.1)
 
 Data: 01/11/2023
@@ -17,14 +24,13 @@ Data: 01/11/2023
   - Adicionadas novas verificações de injeção de vídeo no lado do dispositivo e no servidor para mitigar ameaças de IA generativa.
   - Melhorias de desempenho em dispositivos de nível inferior e intermediário, levando a melhorias na taxa de sucesso.
 
-
 ### [Versão 9.0.0](https://github.com/oititec/android-oiti-versions/releases/tag/9.0.0)
 
 Data: 04/10/2023
 
 - Atualização do `PARAM_FONTS`
 - Remoção do `PARAM_FONTS_NEW_API`
-- Breaking changes e guia de migração para a [9.0.0](https://github.com/oititec/liveness-android-sdk/blob/main/Documentation/Migration-Guide-9.0.0.md) 
+- Breaking changes e guia de migração para a [9.0.0](https://github.com/oititec/liveness-android-sdk/blob/main/Documentation/Migration-Guide-9.0.0.md)
 
 ### [Versão 8.1.1](https://github.com/oititec/android-oiti-versions/releases/tag/8.1.1)
 
