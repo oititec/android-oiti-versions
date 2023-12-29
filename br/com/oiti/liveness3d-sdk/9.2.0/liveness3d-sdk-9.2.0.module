@@ -474,7 +474,7 @@
           "group": "br.com.oiti",
           "module": "security",
           "version": {
-            "requires": "2.0.3"
+            "requires": "2.0.0"
           },
           "excludes": [
             {
