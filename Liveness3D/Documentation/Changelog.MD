@@ -4,6 +4,15 @@
 
 # Changelog
 
+### [Versão 9.2.0](https://github.com/oititec/android-oiti-versions/releases/tag/9.2.0)
+
+Data: 29/12/2023
+
+- Adicionado Device Intelligence
+- Captura de Localização do Usuário
+- Captura de Dados do Dispositivo do Usuário
+- Captura Eventos do Usuário
+
 ### [Versão 9.1.0](https://github.com/oititec/android-oiti-versions/releases/tag/9.1.0)
 
 Data: 05/12/2023
