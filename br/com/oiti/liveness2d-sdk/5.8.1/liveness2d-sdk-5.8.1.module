@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.oiti",
+    "module": "liveness2d-sdk",
+    "version": "5.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "liveness2d-sdk-5.8.1.aar",
+          "url": "liveness2d-sdk-5.8.1.aar",
+          "size": 2562120,
+          "sha512": "8f4a1d6445320f3a76d4665c575efdf589ae65d815e3efce6d74a591d5bde59faa46f5f1694313757b7cce01f61ee9f736b376dfda68e9407872b7fe21c6e853",
+          "sha256": "1ada6f4002843eb9f278f1c43b8499836511aa3b0bbc1465c89a197ddaac6774",
+          "sha1": "460eb7b69206634bffdb6ae38d2260fd36f72a90",
+          "md5": "0e93e6430429cc2ef20ceabac5162954"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.6.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.20"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.5.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.5.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "androidx.vectordrawable",
+          "module": "vectordrawable-animated",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.caverock",
+          "module": "androidsvg",
+          "version": {
+            "requires": "1.4"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk16",
+          "version": {
+            "requires": "1.46"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "liveness2d-sdk-5.8.1.aar",
+          "url": "liveness2d-sdk-5.8.1.aar",
+          "size": 2562120,
+          "sha512": "8f4a1d6445320f3a76d4665c575efdf589ae65d815e3efce6d74a591d5bde59faa46f5f1694313757b7cce01f61ee9f736b376dfda68e9407872b7fe21c6e853",
+          "sha256": "1ada6f4002843eb9f278f1c43b8499836511aa3b0bbc1465c89a197ddaac6774",
+          "sha1": "460eb7b69206634bffdb6ae38d2260fd36f72a90",
+          "md5": "0e93e6430429cc2ef20ceabac5162954"
+        }
+      ]
+    }
+  ]
+}
