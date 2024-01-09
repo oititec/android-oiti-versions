@@ -12,6 +12,7 @@ Data: 29/12/2023
 - Captura de Localização do Usuário
 - Captura de Dados do Dispositivo do Usuário
 - Captura Eventos do Usuário
+- COLOCAR PERMISSÃO DE LOCALIZAÇÃO [Consultar Link](https://devcenter.certiface.io/docs/guia-de-instalacao-android#passo-3-permiss%C3%A3o-de-localiza%C3%A7%C3%A3o)
 
 ### [Versão 9.1.0](https://github.com/oititec/android-oiti-versions/releases/tag/9.1.0)
 
