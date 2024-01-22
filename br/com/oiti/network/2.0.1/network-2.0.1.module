@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.oiti",
+    "module": "network",
+    "version": "2.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "network-2.0.1.aar",
+          "url": "network-2.0.1.aar",
+          "size": 56820,
+          "sha512": "1f78d71062a2382e1467e5fc2d5de721b6a36f52bcaa417458a879364a5f52fcd3fa7650a378a793c9946473d4225b8709fe412bf8ecad9be14a7ba6fe188435",
+          "sha256": "1f8fcf3fa50906c2cbec1685bdd3c2d92b786dbe573b709fd97ad0821db86870",
+          "sha1": "295c213a04d632180fccf53154f52243520d597d",
+          "md5": "84553568ddd364914405aeabd2e5faef"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.20"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "network-2.0.1.aar",
+          "url": "network-2.0.1.aar",
+          "size": 56820,
+          "sha512": "1f78d71062a2382e1467e5fc2d5de721b6a36f52bcaa417458a879364a5f52fcd3fa7650a378a793c9946473d4225b8709fe412bf8ecad9be14a7ba6fe188435",
+          "sha256": "1f8fcf3fa50906c2cbec1685bdd3c2d92b786dbe573b709fd97ad0821db86870",
+          "sha1": "295c213a04d632180fccf53154f52243520d597d",
+          "md5": "84553568ddd364914405aeabd2e5faef"
+        }
+      ]
+    }
+  ]
+}
