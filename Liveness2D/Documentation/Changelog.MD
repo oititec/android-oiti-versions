@@ -12,7 +12,8 @@
 - Adicionado Device Behavior
 - Adicionado Device Location
 - Adicionado Device Info
-- Guia de migração com breaking changes da versão [6.0.0](https://github.com/oititec/android-oiti-versions/blob/master/Liveness2D/BreakingChange/Migration-Guide-6.0.0.md)
+
+- **Guia de migração com breaking changes da versão** [6.0.0](https://github.com/oititec/android-oiti-versions/blob/master/Liveness2D/BreakingChange/Migration-Guide-6.0.0.md)
 
 **Necessário incluir a PERMISSÃO de LOCALIZAÇÃO:**
 Seguir as instruções de permissões disponíveis [neste link.](https://devcenter.certiface.io/docs/guia-de-instalacao-android#passo-3-permiss%C3%A3o-de-localiza%C3%A7%C3%A3o)
