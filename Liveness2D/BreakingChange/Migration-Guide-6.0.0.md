@@ -6,7 +6,14 @@ Este guia fornece informações detalhadas sobre as mudanças significativas int
 
 ## Remoção do Parâmetro `PARAM_ENDPOINT`
 
-Na versão 6.0.0, o parâmetro `PARAM_ENDPOINT` foi removido e substituído pelo `PARAM_ENVIRONMENT`.
+Na versão 6.0.0, o parâmetro `PARAM_ENDPOINT` foi removido na Activity e substituído pelo `PARAM_ENVIRONMENT`.
+
+- **Environment.HML** para ambiente de homologação.
+- **Environment.PRD** para ambiente de produção.
+
+```kotlin
+   putExtra(FaceCaptchaActivity.PARAM_ENVIRONMENT, Environment.HML)
+```
 
 #### Alterações Necessárias
 
@@ -14,7 +21,50 @@ Se sua aplicação utiliza o parâmetro `PARAM_ENDPOINT`, atualize seu código p
 
 ## Nova Forma de Customização de Cores e Fontes
 
-Introduzimos uma nova forma de customização de cores e fontes para plataformas híbridas, caso o `PARAM_HYBRID` seja true.
+Introduzimos uma nova forma de customização de cores e fontes para plataformas híbridas, caso o `PARAM_HYBRID` seja `true`, e para setar a customização criamos um builder e passamos no parâmetro `PARAM_THEME`.
+
+```kotlin
+    putExtra(DocumentscopyActivity.PARAM_THEME, getNewTheme())
+```
+
+```kotlin
+    private fun getNewTheme() = DocCopyTheme.Builder()
+
+        // NewCustom Instruction
+        .instructionBackButtonIcon(R.drawable.cancel_button)
+        .instructionTitleText("Aro aqui eu To")
+        .instructionTitleColor("#A5CD39")
+        .instructionCaptionColor("#A5CD39")
+        .instructionCaptionText("123 mais um teste")
+        .instructionBackgroundColor("#A5CD39")
+        .instructionBottomSheetBackgroundColor("#333333")
+
+
+        //Options Icons Colors
+        .setInstructionOptionDocumentIconColor("#A5CD39")
+        .setInstructionOptionLightingIconColor("#fc0000")
+        //Options Sphere Border/background Colors
+        .setInstructionOptionDocumentBorderColor("#fc0000")
+        .setInstructionOptionDocumentBackgroundColor("#0E1979")
+        .setInstructionOptionLightingBorderColor("#fc0000")
+        .setInstructionOptionLightingBackgroundColor("#A5CD39")
+
+        //Options Texts
+        .setInstructionOptionDocumentTextColor("#A5CD39")
+        .setInstructionOptionDocumentTextFont("ubuntu_regular")
+        .setInstructionOptionLightingTextColor("#A5CD39")
+        .setInstructionOptionLightingTextFont(R.font.ubuntu_regular)
+
+        .setInstructionOptionDocumentText("title Oneee")
+        .setInstructionOptionLightingText("title Twoo")
+
+        //Continue Button
+        .setInstructionContinueButtonBackgroundColor("#FFFFFF")
+        .setInstructionContinueButtonTextColor("#A5CD39")
+        .setInstructionContinueButtonTextFont(R.font.ubuntu_regular)
+
+        .build()
+```
 
 #### Atualização na Lógica de Customização
 
@@ -25,6 +75,8 @@ Se você personaliza cores e fontes para plataformas híbridas, ajuste sua lógi
 A partir da versão 6.0.0, implementamos o Koin para injeção de dependências.
 
 ### Nova Tela de Instruções
+
+`PARAM_CUSTOM_HOME_FRAGMENT` parâmetro para passar o XML da tela de instruções customizadas.
 
 Introduzimos uma nova tela de instruções com os componentes e ids obrigatórios:
 `@+id/contentView` `<ConstraintLayout />`, `@+id/backButton` `<ImageButton />`, `@+id/backButton` `<ImageButton />`, `@+id/continueButton` `<AppCompatButton />,` `@+id/activityIndicatorView` `<ProgressBar />`
