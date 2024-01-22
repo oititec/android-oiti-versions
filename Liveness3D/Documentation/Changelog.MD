@@ -4,6 +4,13 @@
 
 # Changelog
 
+### [Versão 9.2.1](https://github.com/oititec/android-oiti-versions/releases/tag/9.2.1)
+
+Data: 22/01/2024
+
+Revisão no tagueamento do liveness 3D, validação dos eventos mapeados.
+Remoção da fonte Alvar essential.
+
 ### [Versão 9.2.0](https://github.com/oititec/android-oiti-versions/releases/tag/9.2.0)
 
 Data: 29/12/2023
