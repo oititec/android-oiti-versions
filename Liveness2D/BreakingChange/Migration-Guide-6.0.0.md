@@ -1,6 +1,6 @@
 # Migration Guide - 6.0.0
 
-Este guia fornece informações detalhadas sobre as mudanças significativas introduzidas na versão 6.0.0 do seu aplicativo. Certifique-se de seguir as etapas mencionadas aqui para garantir uma transição suave para a nova versão.
+Este guia apresenta orientações detalhadas sobre as mudanças significativas introduzidas na versão 6.0.0 do Liveness 2D da Oiti. Siga todas as etapas abaixo para garantir uma atualização assertiva e uma transição suave para a nova versão do seu aplicativo.
 
 # Atualizações Importantes
 
