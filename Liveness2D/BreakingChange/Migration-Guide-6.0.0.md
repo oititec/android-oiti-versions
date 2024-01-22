@@ -27,7 +27,7 @@ A partir da versão 6.0.0, implementamos o Koin para injeção de dependências.
 ### Nova Tela de Instruções
 
 Introduzimos uma nova tela de instruções com os componentes e ids obrigatórios:
-`@+id/contentView` <ConstraintLayout />, `@+id/backButton` <ImageButton />, `@+id/backButton` <ImageButton />, `@+id/continueButton` <AppCompatButton />, `@+id/activityIndicatorView` <ProgressBar />
+`@+id/contentView` `<ConstraintLayout />`, `@+id/backButton` `<ImageButton />`, `@+id/backButton` `<ImageButton />`, `@+id/continueButton` `<AppCompatButton />,` `@+id/activityIndicatorView` `<ProgressBar />`
 
 Exemplo de tela customizada:
 
