@@ -39,6 +39,10 @@ dependencies {
 
 - [Detalhes de versões](Liveness2D/Documentation/Changelog.MD)
 
+### Guias de migração
+
+- [6.0.0](https://github.com/oititec/android-oiti-versions/blob/master/Liveness2D/BreakingChange/Migration-Guide-6.0.0.md) - BREAKING CHANGE
+
 ### Liveness 3D
 
 #### via Gradle
