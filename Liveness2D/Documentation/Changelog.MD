@@ -18,43 +18,6 @@
 **Necessário incluir a PERMISSÃO de LOCALIZAÇÃO:**
 Seguir as instruções de permissões disponíveis [neste link.](https://devcenter.certiface.io/docs/guia-de-instalacao-android#passo-3-permiss%C3%A3o-de-localiza%C3%A7%C3%A3o)
 
-```kotlin
-val DocTheme = DocCopyTheme.Builder()
-        // NewCustom Instruction
-        .instructionBackButtonIcon(R.drawable.cancel_button)
-        .instructionTitleText("Aro aqui eu To")
-        .instructionTitleColor("#A5CD39")
-        .instructionCaptionColor("#A5CD39")
-        .instructionCaptionText("123 mais um teste")
-        .instructionBackgroundColor("#A5CD39")
-        .instructionBottomSheetBackgroundColor("#333333")
-
-
-        //Options Icons Colors
-        .setInstructionOptionDocumentIconColor("#A5CD39")
-        .setInstructionOptionLightingIconColor("#fc0000")
-        //Options Sphere Border/background Colors
-        .setInstructionOptionDocumentBorderColor("#fc0000")
-        .setInstructionOptionDocumentBackgroundColor("#0E1979")
-        .setInstructionOptionLightingBorderColor("#fc0000")
-        .setInstructionOptionLightingBackgroundColor("#A5CD39")
-
-        //Options Texts
-        .setInstructionOptionDocumentTextColor("#A5CD39")
-        .setInstructionOptionDocumentTextFont("ubuntu_regular")
-        .setInstructionOptionLightingTextColor("#A5CD39")
-        .setInstructionOptionLightingTextFont(R.font.ubuntu_regular)
-
-        .setInstructionOptionDocumentText("title Oneee")
-        .setInstructionOptionLightingText("title Twoo")
-
-        //Continue Button
-        .setInstructionContinueButtonBackgroundColor("#FFFFFF")
-        .setInstructionContinueButtonTextColor("#A5CD39")
-        .setInstructionContinueButtonTextFont(R.font.ubuntu_regular)
-        .build()
-```
-
 #### 5.8.0
 
 Data: 29/08/2023
