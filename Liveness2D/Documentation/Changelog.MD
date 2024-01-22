@@ -1,10 +1,66 @@
 # Changelog
+
+#### 5.8.0
+
+**Data: 22/01/2024**
+
+- Parâmetro `PARAM_ENDPOINT` removido, usar o `PARAM_ENVIRONMENT`.
+- Nova forma de customização das cores e fontes para plataformas hibridas, caso o `PARAM_HYBRID` seja true.
+- Implementação do Koin para injeção de dependências.
+- Nova tela de instruçoes.
+- Adicionado Device Inlligence
+- Adicionado Device Behavior
+- Adicionado Device Location
+- Adicionado Device Info
+
+**Necessário incluir a PERMISSÃO de LOCALIZAÇÃO:**
+Seguir as instruções de permissões disponíveis [neste link.](https://devcenter.certiface.io/docs/guia-de-instalacao-android#passo-3-permiss%C3%A3o-de-localiza%C3%A7%C3%A3o)
+
+```kotlin
+val DocTheme = DocCopyTheme.Builder()
+        // NewCustom Instruction
+        .instructionBackButtonIcon(R.drawable.cancel_button)
+        .instructionTitleText("Aro aqui eu To")
+        .instructionTitleColor("#A5CD39")
+        .instructionCaptionColor("#A5CD39")
+        .instructionCaptionText("123 mais um teste")
+        .instructionBackgroundColor("#A5CD39")
+        .instructionBottomSheetBackgroundColor("#333333")
+
+
+        //Options Icons Colors
+        .setInstructionOptionDocumentIconColor("#A5CD39")
+        .setInstructionOptionLightingIconColor("#fc0000")
+        //Options Sphere Border/background Colors
+        .setInstructionOptionDocumentBorderColor("#fc0000")
+        .setInstructionOptionDocumentBackgroundColor("#0E1979")
+        .setInstructionOptionLightingBorderColor("#fc0000")
+        .setInstructionOptionLightingBackgroundColor("#A5CD39")
+
+        //Options Texts
+        .setInstructionOptionDocumentTextColor("#A5CD39")
+        .setInstructionOptionDocumentTextFont("ubuntu_regular")
+        .setInstructionOptionLightingTextColor("#A5CD39")
+        .setInstructionOptionLightingTextFont(R.font.ubuntu_regular)
+
+        .setInstructionOptionDocumentText("title Oneee")
+        .setInstructionOptionLightingText("title Twoo")
+
+        //Continue Button
+        .setInstructionContinueButtonBackgroundColor("#FFFFFF")
+        .setInstructionContinueButtonTextColor("#A5CD39")
+        .setInstructionContinueButtonTextFont(R.font.ubuntu_regular)
+        .build()
+```
+
 #### 5.8.0
 
 Data: 29/08/2023
+
 - Novo parâmetro adicionado `PARAM_ENVIRONMENT` que recebe um objeto do tipo `Environment.HML` por default.
 - Com a adição do `PARAM_ENVIRONMENT` o `PARAM_ENDPOINT` foi depreciado e movido para o novo parâmetro de environment.
 - Nova forma de customização das cores adicionada para plataformas hibridas, caso o `PARAM_HYBRID` seja true.
+
 ```kotlin
 val DocTheme = DocCopyTheme.Builder()
         .setBackgroundDismissColorHybrid("#73997d")
@@ -17,21 +73,25 @@ val DocTheme = DocCopyTheme.Builder()
 #### 5.7.0
 
 Data: 01/08/2023
+
 - Implementado caminho para integrar com certiface api, adicionado 2 novos parametros para documentoscopia sendo eles o PARAM_CERTIFACE_ENV e PARAM_TICKET.
 
 #### 5.6.2
 
 Data: 21/07/2023
+
 - Corrigido crash que ocorria com o custom loading nas plataformas hibridas.
 
 #### 5.6.1
 
 Data: 18/07/2023
+
 - Ajuste para que a ofuscação não tenha impacto negativo no fluxo.
 
 #### 5.6.0
 
 Data: 21/06/2023
+
 - Implementado custom loadings:
 - Ponto de melhoria para tecnologias hibridas.
 
