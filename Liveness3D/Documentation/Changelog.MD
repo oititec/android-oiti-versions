@@ -8,8 +8,8 @@
 
 Data: 22/01/2024
 
-Revisão no tagueamento do liveness 3D, validação dos eventos mapeados.
-Remoção da fonte Alvar essential.
+- Revisão no tagueamento do liveness 3D, validação dos eventos mapeados.
+- Remoção da fonte Alvar essential.
 
 ### [Versão 9.2.0](https://github.com/oititec/android-oiti-versions/releases/tag/9.2.0)
 
