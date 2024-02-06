@@ -62,7 +62,7 @@ No arquivo `build.gradle` do módulo/app, adicione a dependência:
 
 ```gradle
 dependencies {
-    implementation 'br.com.oiti:liveness3d-sdk:9.2.1'
+    implementation 'br.com.oiti:liveness3d-sdk:9.2.2'
 }
 ```
 
