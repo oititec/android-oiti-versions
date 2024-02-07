@@ -6,7 +6,7 @@
 Visite o sumário abaixo e conheça sobre as documentações de uso e integração, customização e releases notes de Liveness 2D, Liveness 3D e Documentoscopia para Android.
 
 
-**Simplificamos nossos guias de integração e de customização do nosso SDK iOS:**
+**Simplificamos nossos guias de integração e de customização do nosso SDK Android:**
 
 - [Guias de Instalação](https://devcenter.certiface.io/docs/guia-de-instalacao-android)
 - [Guia de Uso e Integração](https://devcenter.certiface.io/docs/guia-de-uso-e-integracao-android)
