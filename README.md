@@ -17,7 +17,7 @@ Visite o sumário abaixo e conheça sobre as documentações de uso e integraç�
 
 ### App de Exemplo
 
-Um exemplo de implementação pode ser encontrado no projeto [Liveness 2D](https://github.com/oititec/liveness-android-sdk/tree/main/FaceCaptchaSample) e [Liveness 3D](https://github.com/oititec/android-liveness3d-sample)
+Um exemplo de implementação pode ser encontrado no projeto [Liveness 2D](https://github.com/oititec/android-oiti-versions/tree/feature/migration_documentation/Liveness2D/FaceCaptchaSample) e [Liveness 3D](https://github.com/oititec/android-liveness3d-sample)
 
 --- 
 Neste repositório encontre também release notes dos módulos Liveness 2D, Liveness 3D e Documentoscopia.
@@ -29,8 +29,8 @@ Neste repositório encontre também release notes dos módulos Liveness 2D, Live
 ### Guias de Migração
 
 #### Liveness 3D
-- [8.0.0](https://github.com/oititec/liveness-android-sdk/blob/main/Documentation/Migration-Guide-8.0.0.md) - Breaking Change
-- [9.0.0](https://github.com/oititec/liveness-android-sdk/blob/main/Documentation/Migration-Guide-9.0.0.md) - Breaking Change
+- [8.0.0](https://github.com/oititec/android-oiti-versions/blob/feature/master/Liveness3D/Documentation/BreakingChange/Migration-Guide-8.0.0.md) - Breaking Change
+- [9.0.0](https://github.com/oititec/android-oiti-versions/blob/feature/master/Liveness3D/Documentation/BreakingChange/Migration-Guide-9.0.0.md) - Breaking Change
 
 #### Liveness 2D
 - [6.0.0](https://github.com/oititec/android-oiti-versions/blob/master/Liveness2D/BreakingChange/Migration-Guide-6.0.0.md) - Breaking Change
