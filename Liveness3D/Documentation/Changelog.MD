@@ -64,7 +64,7 @@ Data: 04/10/2023
 
 - Atualização do `PARAM_FONTS`
 - Remoção do `PARAM_FONTS_NEW_API`
-- Breaking changes e guia de migração para a [9.0.0](https://github.com/oititec/liveness-android-sdk/blob/main/Documentation/Migration-Guide-9.0.0.md)
+- Breaking changes e guia de migração para a [9.0.0](https://github.com/oititec/android-oiti-versions/blob/feature/master/Liveness3D/Documentation/BreakingChange/Migration-Guide-9.0.0.md)
 
 ### [Versão 8.1.1](https://github.com/oititec/android-oiti-versions/releases/tag/8.1.1)
 
@@ -119,6 +119,7 @@ Data: 11/08/2023
     - `resultScreenCustomizationMessageFont`
     - `feedbackCustomizationTextFont`
   - A customização das fontes agora é feita somente pelo dicionário de chave e referencia ou caminho da fonte, assim como é aplicado com os textos. `Liveness3DFontsKey`.
+  - Breaking changes e guia de migração para a [8.0.0](https://github.com/oititec/android-oiti-versions/blob/feature/master/Liveness3D/Documentation/BreakingChange/Migration-Guide-8.0.0.md)
 
 ### [Versão 7.1.2](https://github.com/oititec/android-oiti-versions/releases/tag/7.1.2)
 
