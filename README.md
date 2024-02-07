@@ -17,7 +17,7 @@ Visite o sumário abaixo e conheça sobre as documentações de uso e integraç�
 
 ### App de Exemplo
 
-Um exemplo de implementação pode ser encontrado no projeto [Liveness 2D](https://github.com/oititec/android-oiti-versions/tree/feature/migration_documentation/Liveness2D/FaceCaptchaSample) e [Liveness 3D](https://github.com/oititec/android-liveness3d-sample)
+Um exemplo de implementação pode ser encontrado no projeto [Liveness 2D](https://github.com/oititec/android-oiti-versions/tree/feature/master/Liveness2D/FaceCaptchaSample) e [Liveness 3D](https://github.com/oititec/android-liveness3d-sample)
 
 --- 
 Neste repositório encontre também release notes dos módulos Liveness 2D, Liveness 3D e Documentoscopia.
