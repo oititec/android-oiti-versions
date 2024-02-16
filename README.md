@@ -1,76 +1,52 @@
-<p align="center">
- <img src="Liveness3D/Documentation/Images/OitiHeader.png"/>
-</p>
+<IMG  src="https://github.com/oititec/liveness-android-sdk/blob/main/Documentation/Images/OitiHeader.png?raw=true"  alt="OitiHeader.png"/>
 
-## Instalação e Atualização
 
-### Requisitos mínimos (Liveness 2D e 3D)
+# Oiti - CertiFace para Android
 
-- ##### `Gradle 6.8+`
-- ##### `Android minSDK 21+`
-- ##### `Android targetSDK 33+`
-- ##### `androidx.core:core-ktx:1.6.0+`
-- ##### `androidx.appcompat:appcompat:1.6.1+`
+Visite o sumário abaixo e conheça sobre as documentações de uso e integração, customização e releases notes de Liveness 2D, Liveness 3D e Documentoscopia para Android.
 
-### Liveness 2D
 
-#### via Gradle
+**Simplificamos nossos guias de integração e de customização do nosso SDK Android:**
 
-No arquivo `settings.gradle` do projeto, adicione o repositório:
+- [Guias de Instalação](https://devcenter.certiface.io/docs/guia-de-instalacao-android)
+- [Guia de Uso e Integração](https://devcenter.certiface.io/docs/guia-de-uso-e-integracao-android)
+- [Guia de Tratamento de Retornos](https://devcenter.certiface.io/docs/guia-de-tratamento-de-retorno-android)
+- [Guia de Customização](https://devcenter.certiface.io/docs/liveness3d-android)
 
-```gradle
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        maven { url "https://raw.githubusercontent.com/oititec/android-oiti-versions/master" }
-    }
-}
-```
+--- 
 
-No arquivo `build.gradle` do módulo/app, adicione a dependência:
+### App de Exemplo
 
-```gradle
-dependencies {
-    implementation 'br.com.oiti:liveness2d-sdk:6.0.0'
-}
-```
+Um exemplo de implementação pode ser encontrado no projeto [Liveness 2D](https://github.com/oititec/android-oiti-versions/tree/feature/master/Liveness2D/FaceCaptchaSample) e [Liveness 3D](https://github.com/oititec/android-liveness3d-sample)
+
+--- 
+Neste repositório encontre também release notes dos módulos Liveness 2D, Liveness 3D e Documentoscopia.
 
 ### Changelog
 
-- [Detalhes de versões](Liveness2D/Documentation/Changelog.MD)
+- Acompanhe as novidades das versões para [Liveness 2D](https://github.com/oititec/android-oiti-versions/blob/master/Liveness2D/Documentation/Changelog.MD) e [Liveness 3D](https://github.com/oititec/android-oiti-versions/blob/master/Liveness3D/Documentation/Changelog.MD). 
 
-### Guias de migração
+### Guias de Migração
 
-- [6.0.0](https://github.com/oititec/android-oiti-versions/blob/master/Liveness2D/BreakingChange/Migration-Guide-6.0.0.md) - BREAKING CHANGE
+#### Liveness 3D
+- [8.0.0](https://github.com/oititec/android-oiti-versions/blob/feature/master/Liveness3D/Documentation/BreakingChange/Migration-Guide-8.0.0.md) - Breaking Change
+- [9.0.0](https://github.com/oititec/android-oiti-versions/blob/feature/master/Liveness3D/Documentation/BreakingChange/Migration-Guide-9.0.0.md) - Breaking Change
 
-### Liveness 3D
+#### Liveness 2D
+- [6.0.0](https://github.com/oititec/android-oiti-versions/blob/master/Liveness2D/BreakingChange/Migration-Guide-6.0.0.md) - Breaking Change
 
-#### via Gradle
+---
+### Saiba mais
 
-No arquivo `settings.gradle` do projeto, adicione o repositório:
+- Conhecer as **ferramentas de prevenção à fraude** e suas funcionalidades: [consulte este link](https://devcenter.certiface.io/docs/certiface-funcionalidades).
 
-```gradle
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        maven { url "https://raw.githubusercontent.com/oititec/android-oiti-versions/master" }
-    }
-}
-```
+- Acessar quadro de **compatibilidade de sistemas e drivers**: [consulte este link](https://devcenter.certiface.io/docs/compatibilidade-dos-servicos).
 
-No arquivo `build.gradle` do módulo/app, adicione a dependência:
+- Entrar em contato com o **atendimento Oiti**: [consulte este link](https://devcenter.certiface.io/docs/portal-de-atendimento).
 
-```gradle
-dependencies {
-    implementation 'br.com.oiti:liveness3d-sdk:9.2.2'
-}
-```
 
-### Changelog
 
-- [Detalhes de versões](Liveness3D/Documentation/Changelog.MD)
 
-### Guias de migração
 
-- [8.0.0](https://github.com/oititec/liveness-android-sdk/blob/main/Documentation/Migration-Guide-8.0.0.md) - BREAKING CHANGE
-- [9.0.0](https://github.com/oititec/liveness-android-sdk/blob/main/Documentation/Migration-Guide-9.0.0.md) - BREAKING CHANGE
+
+------

@@ -4,21 +4,6 @@
 
 # Changelog
 
-### [Versão 9.2.2](https://github.com/oititec/android-oiti-versions/releases/tag/9.2.2)
-
-Data: 06/02/2024
-
-- Atualização da FaceTec - versão 9.6.71
-  - Feedback genérico atualizado.
-  - Numerosas correções de polimento de UI/UX.
-  - Registro aprimorado em casos de erro.
-  - Registro aprimorado para determinados casos de erro.
-  - Pequenas melhorias nos modos de pouca luz e escurecimento automático.
-  - Numerosas correções de compatibilidade, estabilidade e desempenho.
-  - Corrigidas várias exceções de casos extremos que fazem com que UNKNOWN_INTERNAL_ERROR seja retornado.
-  - Adicionadas novas verificações de injeção de vídeo no lado do dispositivo e no servidor para mitigar ameaças de IA generativa.
-  - Melhorias de desempenho em dispositivos de nível inferior e intermediário, levando a melhorias na taxa de sucesso.
-
 ### [Versão 9.2.1](https://github.com/oititec/android-oiti-versions/releases/tag/9.2.1)
 
 Data: 22/01/2024
@@ -64,7 +49,7 @@ Data: 04/10/2023
 
 - Atualização do `PARAM_FONTS`
 - Remoção do `PARAM_FONTS_NEW_API`
-- Breaking changes e guia de migração para a [9.0.0](https://github.com/oititec/android-oiti-versions/blob/feature/master/Liveness3D/Documentation/BreakingChange/Migration-Guide-9.0.0.md)
+- Breaking changes e guia de migração para a [9.0.0](https://github.com/oititec/liveness-android-sdk/blob/main/Documentation/Migration-Guide-9.0.0.md)
 
 ### [Versão 8.1.1](https://github.com/oititec/android-oiti-versions/releases/tag/8.1.1)
 
@@ -119,7 +104,6 @@ Data: 11/08/2023
     - `resultScreenCustomizationMessageFont`
     - `feedbackCustomizationTextFont`
   - A customização das fontes agora é feita somente pelo dicionário de chave e referencia ou caminho da fonte, assim como é aplicado com os textos. `Liveness3DFontsKey`.
-  - Breaking changes e guia de migração para a [8.0.0](https://github.com/oititec/android-oiti-versions/blob/feature/master/Liveness3D/Documentation/BreakingChange/Migration-Guide-8.0.0.md)
 
 ### [Versão 7.1.2](https://github.com/oititec/android-oiti-versions/releases/tag/7.1.2)
 

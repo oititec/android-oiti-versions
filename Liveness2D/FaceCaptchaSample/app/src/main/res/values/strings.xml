@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FaceCaptchaSample</string>
+    <string name="default_view">View Padrão</string>
+    <string name="custom_image">Imagem Customizada</string>
+    <string name="custom_view">View Customizada</string>
+    <string name="facecaptcha">FaceCaptcha</string>
+    <string name="documentscopy">Documentoscopia</string>
+    <string name="default_documentscopy">Documentoscopia Padrão</string>
+    <string name="custom_documentscopy">Documentoscopia Customizada</string>
+    <string name="start">Iniciar</string>
+    <string name="initial_text">Toque no botão iniciar e siga as instruções na tela</string>
+    <string name="one_picture">1 foto (com frente e verso)</string>
+    <string name="two_pictures">2 fotos (1 frente e 1 verso)</string>
+    <string name="rotate_device">Rotacione o celular</string>
+    <string name="center_doc">Centralize o documento</string>
+    <string name="center_front">Centralize a frente</string>
+    <string name="center_back">Centralize o verso</string>
+    <string name="change">Trocar</string>
+    <string name="send">Enviar</string>
+</resources>
