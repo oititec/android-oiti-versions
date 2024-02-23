@@ -9,7 +9,7 @@
 Data: 23/02/2024
 
 - Correção Environment apontando para HML em casos onde era definido PRD.
-- Correção KoinJavaComponent.inject<Context>(Context::class.java) gerando crashs no SDK em alguns cenários.
+- Correção `KoinJavaComponent.inject<Context>(Context::class.java)` gerando crashs no SDK em alguns cenários.
 
 ### [Versão 9.2.2](https://github.com/oititec/android-oiti-versions/releases/tag/9.2.2)
 
