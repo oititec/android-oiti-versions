@@ -1,5 +1,12 @@
 # Changelog
 
+#### 6.0.1
+
+**Data: 23/02/2024**
+
+- Correção `KoinJavaComponent.inject<Context>(Context::class.java)` gerando crashs no SDK ao iniciar fluxo de documentoscopia.
+- Correção para plataformas hibridas em alguns casos não eram aplicadas as customizações de cores
+
 #### 6.0.0
 
 **Data: 22/01/2024**
