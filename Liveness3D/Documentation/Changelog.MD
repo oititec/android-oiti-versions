@@ -4,6 +4,14 @@
 
 # Changelog
 
+### [Versão 9.2.4](https://github.com/oititec/android-oiti-versions/releases/tag/9.2.4)
+
+Data: 05/03/2024
+
+- Foi Implementada uma nova validação para a appkey
+- Alteração de retornos para um melhor entendimento. O retorno agora passa a ser `TRANSACTION_NOT_COMPLETED` para casos onde era retornado `NO_INTERNET_CONNECTION`.
+- Correção onde em alguns casos apontando para o environment de PRD era encaminhado para HML
+
 ### [Versão 9.2.3](https://github.com/oititec/android-oiti-versions/releases/tag/9.2.3)
 
 Data: 23/02/2024
