@@ -4,6 +4,13 @@
 
 # Changelog
 
+### [Versão 9.2.5](https://github.com/oititec/android-oiti-versions/releases/tag/9.2.5)
+
+Data: 21/03/2024
+
+- Aprimoramento de erros genéricos
+- Novo retorno implementado para casos onde a appkey não é inicializada corretamente `LIVENESS_NOT_INITIALIZED`
+
 ### [Versão 9.2.4](https://github.com/oititec/android-oiti-versions/releases/tag/9.2.4)
 
 Data: 05/03/2024
