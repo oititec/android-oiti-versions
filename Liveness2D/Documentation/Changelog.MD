@@ -1,5 +1,11 @@
 # Changelog
 
+#### 6.0.2
+
+**Data: 25/04/2024**
+
+- Ajuste na câmera da Documentoscopia, onde ocasionava crash em alguns devices especificos. 
+
 #### 6.0.1
 
 **Data: 23/02/2024**
