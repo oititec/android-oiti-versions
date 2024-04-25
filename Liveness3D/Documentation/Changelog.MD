@@ -4,6 +4,13 @@
 
 # Changelog
 
+### [Versão 9.2.7](https://github.com/oititec/android-oiti-versions/releases/tag/9.2.7)
+
+Data: 22/04/2024
+
+- Atualização dos retornos:
+  - corrigido cenário onde `TRANSACTION_NOT_COMPLETED` era retornado de forma incorreta.
+
 ### [Versão 9.2.6](https://github.com/oititec/android-oiti-versions/releases/tag/9.2.6)
 
 Data: 28/03/2024
