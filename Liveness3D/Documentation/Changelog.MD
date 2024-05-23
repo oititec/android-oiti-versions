@@ -6,7 +6,7 @@
 
 ### [Versão 9.2.8](https://github.com/oititec/android-oiti-versions/releases/tag/9.2.8)
 
-Data: 22/04/2024
+Data: 22/05/2024
 
 - Atualização da Facetec - versão 9.6.90
   - Feedback genérico atualizado.
