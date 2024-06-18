@@ -4,7 +4,7 @@
 
 # Changelog
 
-### [Versão 9.2.8](https://github.com/oititec/android-oiti-versions/releases/tag/9.2.9)
+### [Versão 9.2.9](https://github.com/oititec/android-oiti-versions/releases/tag/9.2.9)
 
 Data: 18/06/2024
 
