@@ -4,6 +4,24 @@
 
 # Changelog
 
+### [Versão 9.3.0](https://github.com/oititec/android-oiti-versions/releases/tag/9.3.0)
+
+Data: 16/07/2024
+
+- Atualização da Facetec - versão 9.6.101
+  - Feedback genérico atualizado.
+  - Numerosas correções de polimento de UI/UX.
+  - Registro aprimorado em casos de erro.
+  - Registro aprimorado para determinados casos de erro.
+  - Pequenas melhorias nos modos de pouca luz e escurecimento automático.
+  - Numerosas correções de compatibilidade, estabilidade e desempenho.
+  - Corrigidas várias exceções de casos extremos que fazem com que UNKNOWN_INTERNAL_ERROR seja retornado.
+  - Adicionadas novas verificações de injeção de vídeo no lado do dispositivo e no servidor para mitigar ameaças de IA generativa.
+  - Melhorias de desempenho em dispositivos de nível inferior e intermediário, levando a melhorias na taxa de sucesso.
+- Atualização na arquitetura
+- Atualização no Gradle version para 8.7
+- Atualização no Android Gradle plugin version para 8.5.0
+
 ### [Versão 9.2.9](https://github.com/oititec/android-oiti-versions/releases/tag/9.2.9)
 
 Data: 18/06/2024
