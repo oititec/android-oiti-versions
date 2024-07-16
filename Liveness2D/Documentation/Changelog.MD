@@ -1,5 +1,13 @@
 # Changelog
 
+#### 6.1.0
+
+**Data: 16/07/2024**
+
+- Atualização na arquitetura e subida do gradle para 8.7
+- Atualização no android gradle plugin para 8.5.0
+- melhorias de estabilidade
+
 #### 6.0.2
 
 **Data: 25/04/2024**
