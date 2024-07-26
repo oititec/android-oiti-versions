@@ -1,5 +1,11 @@
 # Changelog
 
+#### 6.1.1
+
+**Data: 26/07/2024**
+
+- Melhoria na importação na injeção de dependências.
+
 #### 6.1.0
 
 **Data: 16/07/2024**
@@ -12,7 +18,7 @@
 
 **Data: 25/04/2024**
 
-- Ajuste na câmera da Documentoscopia, onde ocasionava crash em alguns devices especificos. 
+- Ajuste na câmera da Documentoscopia, onde ocasionava crash em alguns devices especificos.
 
 #### 6.0.1
 
