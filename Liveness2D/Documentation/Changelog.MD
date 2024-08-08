@@ -1,5 +1,11 @@
 # Changelog
 
+#### 6.1.2
+
+**Data: 08/08/2024**
+
+- Sessão iniciada no momento da captura caso não iniciada.
+
 #### 6.1.1
 
 **Data: 26/07/2024**
