@@ -1,5 +1,11 @@
 # Changelog
 
+#### 6.1.3
+
+**Data: 21/08/2024**
+
+- Sessão do device inteligence descontinuada para tecnologias híbridas.
+
 #### 6.1.2
 
 **Data: 08/08/2024**
