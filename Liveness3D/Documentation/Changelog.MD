@@ -4,6 +4,12 @@
 
 # Changelog
 
+### [Versão 9.3.1](https://github.com/oititec/android-oiti-versions/releases/tag/9.3.1)
+
+Data: 21/07/2024
+
+- Dicionado observabilidade no Liveness 3D
+
 ### [Versão 9.3.0](https://github.com/oititec/android-oiti-versions/releases/tag/9.3.0)
 
 Data: 16/07/2024
