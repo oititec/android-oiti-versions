@@ -1,10 +1,36 @@
 # Changelog
 
+#### 6.1.3
+
+**Data: 21/08/2024**
+
+- Sessão do device inteligence descontinuada para tecnologias híbridas.
+
+#### 6.1.2
+
+**Data: 08/08/2024**
+
+- Sessão iniciada no momento da captura caso não iniciada.
+
+#### 6.1.1
+
+**Data: 26/07/2024**
+
+- Melhoria na importação na injeção de dependências.
+
+#### 6.1.0
+
+**Data: 16/07/2024**
+
+- Atualização na arquitetura e subida do gradle para 8.7
+- Atualização no android gradle plugin para 8.5.0
+- melhorias de estabilidade
+
 #### 6.0.2
 
 **Data: 25/04/2024**
 
-- Ajuste na câmera da Documentoscopia, onde ocasionava crash em alguns devices especificos. 
+- Ajuste na câmera da Documentoscopia, onde ocasionava crash em alguns devices especificos.
 
 #### 6.0.1
 
