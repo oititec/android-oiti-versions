@@ -8,13 +8,13 @@
 Data: 24/09/2024
 
 - Atualização da Facetec - versão 9.7.32
- - Não há mudanças que causem quebras significativas, exceto a remoção de algumas APIs menores que foram depreciadas.
+  - Não há mudanças que causem quebras significativas, exceto a remoção de algumas APIs menores que foram depreciadas.
 As atualizações da v9.6.x para a v9.7.x são realizadas exatamente como as atualizações da v9.6.x.
 Consulte o Guia de Atualização da v9.7 para mais informações.
- - Melhorias na Taxa de Sucesso e Compatibilidade com Dispositivos.
- - Melhorias de Desempenho/Velocidade.
- - Melhorias na Estabilidade e no Gerenciamento de Memória.
- - Melhorias nas Verificações de Injeção de Vídeo no lado do Dispositivo e no Servidor para mitigar Ameaças de IA Generativa.
+  - Melhorias na Taxa de Sucesso e Compatibilidade com Dispositivos.
+  - Melhorias de Desempenho/Velocidade.
+  - Melhorias na Estabilidade e no Gerenciamento de Memória.
+  - Melhorias nas Verificações de Injeção de Vídeo no lado do Dispositivo e no Servidor para mitigar Ameaças de IA Generativa.
 
 ### [Versão 9.3.1](https://github.com/oititec/android-oiti-versions/releases/tag/9.3.1)
 
