@@ -3,6 +3,12 @@
 </p>
 
 # Changelog
+### [Versão 9.3.3](https://github.com/oititec/android-oiti-versions/releases/tag/9.3.3)
+
+Data: 08/10/2024
+
+- Correção para um bug que ocorria ao utilizar redes moveis e executar o SDK.
+
 ### [Versão 9.3.2](https://github.com/oititec/android-oiti-versions/releases/tag/9.3.2)
 
 Data: 24/09/2024
