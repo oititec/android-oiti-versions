@@ -1,5 +1,11 @@
 # Changelog
 
+#### 6.1.4
+
+**Data: 08/10/2024**
+
+- Correção para um bug que ocorria ao utilizar redes moveis e executar o SDK.
+
 #### 6.1.3
 
 **Data: 21/08/2024**
