@@ -1,0 +1,214 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.oiti",
+    "module": "liveness2d-sdk",
+    "version": "6.1.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android-compat",
+          "version": {
+            "requires": "3.3.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "liveness2d-sdk-6.1.5.aar",
+          "url": "liveness2d-sdk-6.1.5.aar",
+          "size": 2637201,
+          "sha512": "7f9f35480456233180e8def4809907b889c97bbd84c1561d59981a8d0b4657277671123ddfab3f6a24df920356eb9831c1caf2e0c6bf00c0a59762a46107611d",
+          "sha256": "c841d9bdbb380d15c3e5638c91c56461e6b66f2d16276bbaa31ffdbef2d107b5",
+          "sha1": "905fe23d8e187d90d5820345f0a054ed8dacd3d8",
+          "md5": "2f034720796333590f28bd070bb3475d"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android-compat",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.6.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.20"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.5.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "androidx.vectordrawable",
+          "module": "vectordrawable-animated",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.caverock",
+          "module": "androidsvg",
+          "version": {
+            "requires": "1.4"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-androidx-workmanager",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk16",
+          "version": {
+            "requires": "1.46"
+          }
+        },
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "br.com.oiti",
+          "module": "network",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "br.com.oiti",
+          "module": "security",
+          "version": {
+            "requires": "3.1.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "liveness2d-sdk-6.1.5.aar",
+          "url": "liveness2d-sdk-6.1.5.aar",
+          "size": 2637201,
+          "sha512": "7f9f35480456233180e8def4809907b889c97bbd84c1561d59981a8d0b4657277671123ddfab3f6a24df920356eb9831c1caf2e0c6bf00c0a59762a46107611d",
+          "sha256": "c841d9bdbb380d15c3e5638c91c56461e6b66f2d16276bbaa31ffdbef2d107b5",
+          "sha1": "905fe23d8e187d90d5820345f0a054ed8dacd3d8",
+          "md5": "2f034720796333590f28bd070bb3475d"
+        }
+      ]
+    }
+  ]
+}
