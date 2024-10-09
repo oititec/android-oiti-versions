@@ -3,6 +3,12 @@
 </p>
 
 # Changelog
+### [Versão 9.3.4](https://github.com/oititec/android-oiti-versions/releases/tag/9.3.4)
+
+Data: 09/10/2024
+
+- Correção no método criado na versão anterior [9.3.3](https://github.com/oititec/android-oiti-versions/releases/tag/9.3.3) ao qual ocorria um erro ao utilizar dados móveis.
+
 ### [Versão 9.3.3](https://github.com/oititec/android-oiti-versions/releases/tag/9.3.3)
 
 Data: 08/10/2024
