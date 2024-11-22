@@ -1,5 +1,11 @@
 # Changelog
 
+#### 6.1.5
+
+**Data: 09/10/2024**
+
+- Ajuste no metodo criado na versão anterior [6.1.4].
+
 #### 6.1.4
 
 **Data: 08/10/2024**
