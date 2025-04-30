@@ -4,6 +4,17 @@
 
 # Changelog
 
+### [Versão 9.4.5](https://github.com/oititec/android-oiti-versions/releases/tag/9.4.5)
+
+Data: 24/04/2025
+
+- Atualização da Facetec [9.7.63]
+  - Melhorias na Taxa de Sucesso e Compatibilidade com Dispositivos.
+  - Melhorias de Desempenho/Velocidade.
+  - Melhorias na Estabilidade e no Gerenciamento de Memória.
+  - Melhorias nas Verificações de Injeção de Vídeo no lado do Dispositivo e no Servidor para mitigar Ameaças de IA Generativa.
+- Adicionado novo parâmetro `vocalGuidanceCustomization` no `Liveness3DTheme` que recebe um enum de `Liveness3DVoiceOption`, com isso é possivel habilitar o voice da facetec para feedback sonoro do desafio de liveness. Por padrão essa propriedade vem `NO_VOCAL_GUIDANCE`.
+
 ### [Versão 9.4.4](https://github.com/oititec/android-oiti-versions/releases/tag/9.4.4)
 
 Data: 04/04/2025
