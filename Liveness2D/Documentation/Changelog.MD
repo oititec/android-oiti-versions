@@ -1,5 +1,11 @@
 # Changelog
 
+#### 6.1.6
+
+**Data: 30/04/2025**
+
+- Ajustes internos no SDK de documentoscopia.
+
 #### 6.1.5
 
 **Data: 09/10/2024**
