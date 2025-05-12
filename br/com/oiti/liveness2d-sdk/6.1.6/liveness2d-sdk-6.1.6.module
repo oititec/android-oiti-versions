@@ -48,11 +48,11 @@
         {
           "name": "liveness2d-sdk-6.1.6.aar",
           "url": "liveness2d-sdk-6.1.6.aar",
-          "size": 2698093,
-          "sha512": "58ff6d41e06ec4148962d1ac1872a5c50832fd7d7e6faa35152039dcc55a43e36f059c665ccfc378e3247277f85f6b1cd04cf8a8db7a3dd782e6b7a0dd0dc339",
-          "sha256": "3773a210c6f3d3d83c0d1f92e308a8ae3cb12b43b27fa7c34862774ad81fe3c5",
-          "sha1": "ca500a7259d774cad0fc60bb180a19e887db91e9",
-          "md5": "64ae175153c228826a92cdccc2e4540e"
+          "size": 2696950,
+          "sha512": "e52c7d15b977c02849c7025c38bd2c1845476a7c9a34cac57ab07b9a9a765765712a74cf1549401f27901d91212154345a05b2c3a8556ecf8986497875c49401",
+          "sha256": "1d6a9dfb43506722d83e72fcb27e839516e4bb96921b99894106bde75510e65f",
+          "sha1": "71ee206eea4a557a44b7afad60b9f1d5c5ed479a",
+          "md5": "27091a5dfbaa9d42f42441a6d49292c5"
         }
       ]
     },
@@ -209,11 +209,11 @@
         {
           "name": "liveness2d-sdk-6.1.6.aar",
           "url": "liveness2d-sdk-6.1.6.aar",
-          "size": 2698093,
-          "sha512": "58ff6d41e06ec4148962d1ac1872a5c50832fd7d7e6faa35152039dcc55a43e36f059c665ccfc378e3247277f85f6b1cd04cf8a8db7a3dd782e6b7a0dd0dc339",
-          "sha256": "3773a210c6f3d3d83c0d1f92e308a8ae3cb12b43b27fa7c34862774ad81fe3c5",
-          "sha1": "ca500a7259d774cad0fc60bb180a19e887db91e9",
-          "md5": "64ae175153c228826a92cdccc2e4540e"
+          "size": 2696950,
+          "sha512": "e52c7d15b977c02849c7025c38bd2c1845476a7c9a34cac57ab07b9a9a765765712a74cf1549401f27901d91212154345a05b2c3a8556ecf8986497875c49401",
+          "sha256": "1d6a9dfb43506722d83e72fcb27e839516e4bb96921b99894106bde75510e65f",
+          "sha1": "71ee206eea4a557a44b7afad60b9f1d5c5ed479a",
+          "md5": "27091a5dfbaa9d42f42441a6d49292c5"
         }
       ]
     }
