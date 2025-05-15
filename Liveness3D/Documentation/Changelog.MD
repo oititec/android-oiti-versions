@@ -4,6 +4,16 @@
 
 # Changelog
 
+### [Versão 9.4.6](https://github.com/oititec/android-oiti-versions/releases/tag/9.4.6)
+
+Data: 15/05/2025
+
+- Atualização da Facetec [9.7.66]
+  - Melhorias na Taxa de Sucesso e Compatibilidade com Dispositivos.
+  - Melhorias de Desempenho/Velocidade.
+  - Melhorias na Estabilidade e no Gerenciamento de Memória.
+  - Melhorias nas Verificações de Injeção de Vídeo no lado do Dispositivo e no Servidor para mitigar Ameaças de IA Generativa.
+
 ### [Versão 9.4.5](https://github.com/oititec/android-oiti-versions/releases/tag/9.4.5)
 
 Data: 24/04/2025
