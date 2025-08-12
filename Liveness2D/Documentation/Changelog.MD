@@ -1,5 +1,11 @@
 # Changelog
 
+#### 6.1.7
+
+**Data: 12/08/2025**
+
+- Ajustes internos no apontamento de HML.
+
 #### 6.1.6
 
 **Data: 30/04/2025**
