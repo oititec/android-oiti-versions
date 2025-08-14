@@ -4,6 +4,16 @@
 
 # Changelog
 
+### [Versão 9.4.9](https://github.com/oititec/android-oiti-versions/releases/tag/9.4.9)
+
+Data: 14/08/2025
+
+- Atualização da FaceTec [9.7.79]
+  - Melhorias na acurácia e compatibilidade do 3D Liveness (animações e transições mais suaves em diversos dispositivos).
+  - APIs novas pra customizar tempo de exibição das animações no fluxo de Liveness (display time configurável entre 1,5 s e 3 s).
+  - Remoção das APIs de timeout de sessão de Liveness não operacionais, deixando o SDK mais limpo.
+  - Segurança de Liveness reforçada com testes de injeção de vídeo Nível 4 e 5 pra mitigar ameaças de IA Generativa.
+
 ### [Versão 9.4.8](https://github.com/oititec/android-oiti-versions/releases/tag/9.4.8)
 
 Data: 14/07/2025
