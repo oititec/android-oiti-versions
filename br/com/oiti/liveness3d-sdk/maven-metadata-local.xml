@@ -3,8 +3,8 @@
   <groupId>br.com.oiti</groupId>
   <artifactId>liveness3d-sdk</artifactId>
   <versioning>
-    <latest>9.4.8</latest>
-    <release>9.4.8</release>
+    <latest>9.4.9</latest>
+    <release>9.4.9</release>
     <versions>
       <version>6.0</version>
       <version>6.1</version>
@@ -52,7 +52,8 @@
       <version>9.4.6</version>
       <version>9.4.7</version>
       <version>9.4.8</version>
+      <version>9.4.9</version>
     </versions>
-    <lastUpdated>20250714085625</lastUpdated>
+    <lastUpdated>20250814150425</lastUpdated>
   </versioning>
 </metadata>
