@@ -1,5 +1,28 @@
 # Changelog
 
+#### 6.2.0
+
+**Data: 16/09/2025**
+
+##### Conformidade Google Play
+- SDK atualizado para suportar dispositivos com **page size de 16 KB**.  
+  A partir de **novembro/2025**, builds sem compatibilidade poderão ser rejeitados pela Google Play.
+
+##### Atualizações
+- Atualização de bibliotecas legadas e alinhamento do toolchain.
+
+##### ⚠️ Breaking Changes
+- Requer **Java 17** (`sourceCompatibility`/`targetCompatibility` = 17, `jvmTarget` = 17).
+- Atualizado para **Kotlin 2.1.21** e **Coroutines 1.10.x**.
+- **Retrofit 3.x + OkHttp 5.x**.
+- **BouncyCastle** atualizado para `bcprov-jdk15to18:1.81`  
+  > Será necessário alinhar a versão em caso de conflito.
+- **AndroidX** atualizada (Core 1.17, AppCompat 1.7, Fragment 1.8, Material 1.13).  
+  > Pode exigir `compileSdk` mais recente.
+
+##### Notas de compatibilidade
+- **(Koin 4.1.1):**
+
 #### 6.1.7
 
 **Data: 12/08/2025**
