@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.oiti",
+    "module": "network",
+    "version": "2.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "network-2.1.1.aar",
+          "url": "network-2.1.1.aar",
+          "size": 21549,
+          "sha512": "bb92e7e351d5a8a6bc5042e8189180d15d55be25826ce5ad1ddd1a9f9212ea040cebd2959bf57d277799c95544d72e6307081ff806267e6160549f8aef3b40f9",
+          "sha256": "1d322e0d6126b5248906d88ac4a06a09ffca466e99278fd32e38185995d959f3",
+          "sha1": "d495094c89d32b938bdfe4272e50ebf1a92127e6",
+          "md5": "90209726e49bfc0e7d41a28e65ed1663"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "network-2.1.1.aar",
+          "url": "network-2.1.1.aar",
+          "size": 21549,
+          "sha512": "bb92e7e351d5a8a6bc5042e8189180d15d55be25826ce5ad1ddd1a9f9212ea040cebd2959bf57d277799c95544d72e6307081ff806267e6160549f8aef3b40f9",
+          "sha256": "1d322e0d6126b5248906d88ac4a06a09ffca466e99278fd32e38185995d959f3",
+          "sha1": "d495094c89d32b938bdfe4272e50ebf1a92127e6",
+          "md5": "90209726e49bfc0e7d41a28e65ed1663"
+        }
+      ]
+    }
+  ]
+}
