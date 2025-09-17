@@ -19,7 +19,7 @@
   > Será necessário alinhar a versão em caso de conflito.
 - **AndroidX** atualizada (Core 1.17, AppCompat 1.7, Fragment 1.8, Material 1.13).  
   > Pode exigir `compileSdk` mais recente.
-- **(Koin 4.1.1):**
+- **Koin 4.1.1**
 
 #### 6.1.7
 
