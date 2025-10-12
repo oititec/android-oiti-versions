@@ -1,5 +1,11 @@
 # Changelog
 
+#### 6.2.1
+
+**Data: 12/10/2025**
+
+- Ajustes no recorte do documento.
+
 #### 6.2.0
 
 **Data: 16/09/2025**
