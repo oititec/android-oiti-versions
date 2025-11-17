@@ -4,6 +4,37 @@
 
 # Changelog
 
+### [Versão 9.5.1](https://github.com/oititec/android-oiti-versions/releases/tag/9.5.1)
+
+Data: 02/10/2025
+
+- Atualização da FaceTec [9.7.87]
+  - Melhorias na acurácia e compatibilidade do 3D Liveness (animações e transições mais suaves em diversos dispositivos).
+  - APIs novas pra customizar tempo de exibição das animações no fluxo de Liveness (display time configurável entre 1,5 s e 3 s).
+  - Remoção das APIs de timeout de sessão de Liveness não operacionais, deixando o SDK mais limpo.
+  - Segurança de Liveness reforçada com testes de injeção de vídeo Nível 4 e 5 pra mitigar ameaças de IA Generativa.
+
+### [Versão 9.5.0](https://github.com/oititec/android-oiti-versions/releases/tag/9.5.0)
+
+Data: 16/09/2025
+
+### Conformidade Google Play
+- SDK atualizado para suportar dispositivos com **page size de 16 KB**.  
+  A partir de **novembro/2025**, builds sem compatibilidade poderão ser rejeitados pela Google Play.
+
+### Atualizações
+- Atualização de bibliotecas legadas e alinhamento do toolchain.
+
+### ⚠️ Breaking Changes
+- Requer **Java 17** (`sourceCompatibility`/`targetCompatibility` = 17, `jvmTarget` = 17).
+- Atualizado para **Kotlin 2.1.21** e **Coroutines 1.10.x**.
+- **Retrofit 3.x + OkHttp 5.x**.
+- **BouncyCastle** atualizado para `bcprov-jdk15to18:1.81`  
+  > Será necessário alinhar a versão em caso de conflito.
+- **AndroidX** atualizada (Core 1.17, AppCompat 1.7, Fragment 1.8, Material 1.13).  
+  > Pode exigir `compileSdk` mais recente.
+- **Koin 4.1.1**
+
 ### [Versão 9.4.10](https://github.com/oititec/android-oiti-versions/releases/tag/9.4.10)
 
 Data: 28/08/2025

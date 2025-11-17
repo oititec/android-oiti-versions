@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.oiti",
+    "module": "network",
+    "version": "2.1.1-pre-migration",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "network-2.1.1-pre-migration.aar",
+          "url": "network-2.1.1-pre-migration.aar",
+          "size": 21299,
+          "sha512": "313231a506b786e9547caf71bc9f0573f2313252190b27e963b11a822ec6958c01b1c1c9fdccbeee7bf26021aa90c1f3e17afaa4506be9f59e05b9c3edc1fbed",
+          "sha256": "957cbd6cff9656c20a01275385fa965301b16bc6c87c5f0b9a30771441cea042",
+          "sha1": "ab4d0e02c45237f0fde63caceb00c38811d5f4cf",
+          "md5": "5dfba7557594703d12fadd7e97ed2384"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.20"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "network-2.1.1-pre-migration.aar",
+          "url": "network-2.1.1-pre-migration.aar",
+          "size": 21299,
+          "sha512": "313231a506b786e9547caf71bc9f0573f2313252190b27e963b11a822ec6958c01b1c1c9fdccbeee7bf26021aa90c1f3e17afaa4506be9f59e05b9c3edc1fbed",
+          "sha256": "957cbd6cff9656c20a01275385fa965301b16bc6c87c5f0b9a30771441cea042",
+          "sha1": "ab4d0e02c45237f0fde63caceb00c38811d5f4cf",
+          "md5": "5dfba7557594703d12fadd7e97ed2384"
+        }
+      ]
+    }
+  ]
+}
