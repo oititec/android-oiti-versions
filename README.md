@@ -34,6 +34,7 @@ Neste repositório encontre também release notes dos módulos Liveness 2D, Live
 
 #### Liveness 2D
 - [6.0.0](https://github.com/oititec/android-oiti-versions/blob/master/Liveness2D/BreakingChange/Migration-Guide-6.0.0.md) - Breaking Change
+- [7.0.0](https://github.com/oititec/android-oiti-versions/blob/master/Liveness2D/BreakingChange/Migration-Guide-7.0.0.md) - Breaking Change
 
 ---
 ### Saiba mais

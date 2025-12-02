@@ -1,5 +1,23 @@
 # Changelog
 
+#### 7.0.0
+
+**Data: 02/12/2025**
+
+- Novo fluxo de **CNH Digital** disponível.
+
+  Permite captura de CNH digital através de upload de arquivo (PDF, JPEG ou PNG), além da opção de captura física já existente.
+
+- Sistema de customização de temas refatorado com novos builders específicos para cada tela do fluxo.
+
+- Nova forma de passar fontes customizadas através de `HashMap<DocCoreFontsKey, String>`.
+
+- Implementação do **Jetpack Compose** para o novo fluxo de CNH Digital.
+
+  > ⚠️ **Atenção**: Esta versão requer que o projeto tenha Jetpack Compose configurado. Projetos que não utilizam Compose precisarão adicionar a configuração mínima. Consulte o [guia de migração](https://github.com/oititec/android-oiti-versions/blob/master/Liveness2D/BreakingChange/Migration-Guide-7.0.0.md) para mais detalhes.
+
+- **Guia de migração com breaking changes da versão** [7.0.0](https://github.com/oititec/android-oiti-versions/blob/master/Liveness2D/BreakingChange/Migration-Guide-7.0.0.md)
+
 #### 6.2.1
 
 **Data: 12/10/2025**
