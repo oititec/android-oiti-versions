@@ -14,7 +14,7 @@
 
 - Implementação do **Jetpack Compose** para o novo fluxo de CNH Digital.
 
-  > ⚠️ **Atenção**: Esta versão requer que o projeto tenha Jetpack Compose configurado. Projetos que não utilizam Compose precisarão adicionar a configuração mínima. Consulte o [guia de migração](BREAKING_CHANGES_7.0.0.md) para mais detalhes.
+  > ⚠️ **Atenção**: Esta versão requer que o projeto tenha Jetpack Compose configurado. Projetos que não utilizam Compose precisarão adicionar a configuração mínima. Consulte o [guia de migração](https://github.com/oititec/android-oiti-versions/blob/master/Liveness2D/BreakingChange/Migration-Guide-6.0.0.md) para mais detalhes.
 
 - **Guia de migração com breaking changes da versão** [7.0.0](BREAKING_CHANGES_7.0.0.md)
 
