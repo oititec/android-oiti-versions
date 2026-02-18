@@ -4,6 +4,12 @@
 
 # Changelog
 
+### [Versão 9.5.5](https://github.com/oititec/android-oiti-versions/releases/tag/9.5.5)
+
+Data: 18/02/2026
+
+- Ajustes nos _callbacks_ do Liveness.
+
 ### [Versão 9.5.4](https://github.com/oititec/android-oiti-versions/releases/tag/9.5.4)
 
 Data: 27/01/2026
