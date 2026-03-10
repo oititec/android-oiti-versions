@@ -4,6 +4,28 @@
 
 # Changelog
 
+### [Versão 9.5.6](https://github.com/oititec/android-oiti-versions/releases/tag/9.5.6)
+
+Data: 10/03/2026
+
+- Atualização da FaceTec [9.7.115]
+
+### [Versão 9.5.5](https://github.com/oititec/android-oiti-versions/releases/tag/9.5.5)
+
+Data: 18/02/2026
+
+- Ajustes nos _callbacks_ do Liveness.
+
+### [Versão 9.5.4](https://github.com/oititec/android-oiti-versions/releases/tag/9.5.4)
+
+Data: 27/01/2026
+
+- Atualização da FaceTec [9.7.109]
+  - Melhorias na acurácia e compatibilidade do 3D Liveness (animações e transições mais suaves em diversos dispositivos).
+  - APIs novas pra customizar tempo de exibição das animações no fluxo de Liveness (display time configurável entre 1,5 s e 3 s).
+  - Remoção das APIs de timeout de sessão de Liveness não operacionais, deixando o SDK mais limpo.
+  - Segurança de Liveness reforçada com testes de injeção de vídeo Nível 4 e 5 pra mitigar ameaças de IA Generativa.iva.
+
 ### [Versão 9.5.3](https://github.com/oititec/android-oiti-versions/releases/tag/9.5.3)
 
 Data: 18/12/2025
@@ -39,19 +61,22 @@ Data: 02/10/2025
 Data: 16/09/2025
 
 ### Conformidade Google Play
+
 - SDK atualizado para suportar dispositivos com **page size de 16 KB**.  
   A partir de **novembro/2025**, builds sem compatibilidade poderão ser rejeitados pela Google Play.
 
 ### Atualizações
+
 - Atualização de bibliotecas legadas e alinhamento do toolchain.
 
 ### ⚠️ Breaking Changes
+
 - Requer **Java 17** (`sourceCompatibility`/`targetCompatibility` = 17, `jvmTarget` = 17).
 - Atualizado para **Kotlin 2.1.21** e **Coroutines 1.10.x**.
 - **Retrofit 3.x + OkHttp 5.x**.
-- **BouncyCastle** atualizado para `bcprov-jdk15to18:1.81`  
+- **BouncyCastle** atualizado para `bcprov-jdk15to18:1.81`
   > Será necessário alinhar a versão em caso de conflito.
-- **AndroidX** atualizada (Core 1.17, AppCompat 1.7, Fragment 1.8, Material 1.13).  
+- **AndroidX** atualizada (Core 1.17, AppCompat 1.7, Fragment 1.8, Material 1.13).
   > Pode exigir `compileSdk` mais recente.
 - **Koin 4.1.1**
 
@@ -187,8 +212,8 @@ Data: 24/09/2024
 
 - Atualização da Facetec - versão 9.7.32
   - Não há mudanças que causem quebras significativas, exceto a remoção de algumas APIs menores que foram depreciadas.
-As atualizações da v9.6.x para a v9.7.x são realizadas exatamente como as atualizações da v9.6.x.
-Consulte o Guia de Atualização da v9.7 para mais informações.
+    As atualizações da v9.6.x para a v9.7.x são realizadas exatamente como as atualizações da v9.6.x.
+    Consulte o Guia de Atualização da v9.7 para mais informações.
   - Melhorias na Taxa de Sucesso e Compatibilidade com Dispositivos.
   - Melhorias de Desempenho/Velocidade.
   - Melhorias na Estabilidade e no Gerenciamento de Memória.
