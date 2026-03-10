@@ -1,5 +1,19 @@
 # Changelog
 
+#### 7.1.0
+
+**Data: 10/03/2026**
+
+- Novo fluxo de **Upload de documento digital PDF** disponível.
+
+- Implementação do novo builder para o fluxo de upload de PDF.
+
+- Padronização da tela de envio com a tela da CNH Digital.
+
+  > ⚠️ **Atenção**: Esta versão requer que o projeto tenha Jetpack Compose configurado. Projetos que não utilizam Compose precisarão adicionar a configuração mínima. Consulte o [guia de migração](https://github.com/oititec/android-oiti-versions/blob/master/Liveness2D/BreakingChange/Migration-Guide-7.0.0.md) para mais detalhes.
+
+- **Guia de migração das alterações da versão** [7.1.0](https://github.com/oititec/android-oiti-versions/blob/master/Liveness2D/BreakingChange/Migration-Guide-7.1.0.md)
+
 #### 7.0.0
 
 **Data: 02/12/2025**
