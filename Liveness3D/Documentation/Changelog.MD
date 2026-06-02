@@ -4,6 +4,13 @@
 
 # Changelog
 
+### [Versão 9.5.8](https://github.com/oititec/android-oiti-versions/releases/tag/9.5.8)
+
+Data: 02/06/2026
+
+- Atualização da FaceTec [9.7.126]
+- Atualização dos fluxos internos para melhorar tratativas de erro.
+
 ### [Versão 9.5.6](https://github.com/oititec/android-oiti-versions/releases/tag/9.5.6)
 
 Data: 10/03/2026
